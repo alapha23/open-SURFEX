@@ -1,0 +1,1 @@
+/usr/bin/cc  -pipe -pedantic -O3 -DNDEBUG      -Wl,--disable-new-dtags -rdynamic CMakeFiles/grib_util_set_spec.dir/grib_util_set_spec.c.o  -o grib_util_set_spec -Wl,-rpath,/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/lib ../lib/libgrib_api.so -lm -lpthread 

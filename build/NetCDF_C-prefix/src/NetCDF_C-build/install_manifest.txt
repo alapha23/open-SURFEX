@@ -1,0 +1,14 @@
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/lib/pkgconfig/netcdf.pc
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/bin/nc-config
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/lib/libnetcdf.settings
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/lib/cmake/netCDF/netCDFTargets.cmake
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/lib/cmake/netCDF/netCDFTargets-release.cmake
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/lib/cmake/netCDF/netCDFConfig.cmake
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/lib/cmake/netCDF/netCDFConfigVersion.cmake
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/include/netcdf.h
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/include/netcdf_mem.h
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/include/netcdf_meta.h
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/share/man/man3/netcdf.3
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/lib/libnetcdf.so.11.4.0
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/lib/libnetcdf.so.11
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/lib/libnetcdf.so

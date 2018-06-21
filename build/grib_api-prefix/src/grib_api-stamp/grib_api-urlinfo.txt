@@ -1,0 +1,3 @@
+repository='external project URL'
+module='/home/gao/Documents/open-SURFEX/auxiliary/grib_api-1.23.0-Source.tar.gz'
+tag=''

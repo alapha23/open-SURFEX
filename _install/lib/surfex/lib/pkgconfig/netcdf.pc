@@ -1,0 +1,13 @@
+prefix=/home/gao/Documents/open-SURFEX/_install/lib/surfex
+exec_prefix=/home/gao/Documents/open-SURFEX/_install/lib/surfex
+libdir=/home/gao/Documents/open-SURFEX/_install/lib/surfex/lib
+includedir=/home/gao/Documents/open-SURFEX/_install/lib/surfex/include
+ccompiler=/usr/bin/cc
+
+Name: netCDF
+Description: NetCDF Client Library for C
+URL: http://www.unidata.ucar.edu/netcdf
+Version: 4.4.1.1
+Libs: -L${libdir} -lnetcdf -lhdf5_hl -lhdf5 -ldl -lm -lz
+Cflags: -I${includedir}
+

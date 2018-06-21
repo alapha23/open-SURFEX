@@ -1,0 +1,1 @@
+/usr/bin/gfortran -fPIC -O3 -funroll-all-loops -finline-functions  -Wl,--disable-new-dtags -shared -Wl,-soname,libgrib_api_f90.so -o ../lib/libgrib_api_f90.so CMakeFiles/grib_api_f90.dir/grib_fortran.c.o CMakeFiles/grib_api_f90.dir/grib_f90.f90.o -Wl,-rpath,"\$ORIGIN/../lib" ../lib/libgrib_api.so -lm -lpthread 

@@ -1,0 +1,488 @@
+Performing C SOURCE FILE Test CC_HAS_SHORTEN_64_32 failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b862/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5b862.dir/build.make CMakeFiles/cmTC_5b862.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b862.dir/src.c.o
+/usr/bin/cc   -DCC_HAS_SHORTEN_64_32 -fPIE   -Wshorten-64-to-32 -o CMakeFiles/cmTC_5b862.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_5b862.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5b862.dir/src.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_5b862.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5b862/fast' failed
+make[3]: *** [cmTC_5b862/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function H5Pget_fapl_mpiposix exists in the hdf5 failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45f11/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_45f11.dir/build.make CMakeFiles/cmTC_45f11.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45f11.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=H5Pget_fapl_mpiposix -fPIE   -o CMakeFiles/cmTC_45f11.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_45f11
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45f11.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=H5Pget_fapl_mpiposix    -rdynamic CMakeFiles/cmTC_45f11.dir/CheckFunctionExists.c.o  -o cmTC_45f11 -lhdf5 
+/usr/bin/ld: cannot find -lhdf5
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_45f11.dir/build.make:86: recipe for target 'cmTC_45f11' failed
+make[4]: *** [cmTC_45f11] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_45f11/fast' failed
+make[3]: *** [cmTC_45f11/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function H5Pget_fapl_mpio exists in the hdf5 failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90163/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_90163.dir/build.make CMakeFiles/cmTC_90163.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90163.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=H5Pget_fapl_mpio -fPIE   -o CMakeFiles/cmTC_90163.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_90163
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90163.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=H5Pget_fapl_mpio    -rdynamic CMakeFiles/cmTC_90163.dir/CheckFunctionExists.c.o  -o cmTC_90163 -lhdf5 
+/usr/bin/ld: cannot find -lhdf5
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_90163.dir/build.make:86: recipe for target 'cmTC_90163' failed
+make[4]: *** [cmTC_90163] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_90163/fast' failed
+make[3]: *** [cmTC_90163/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function H5P_SZIP exists in the hdf5 failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1552d/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1552d.dir/build.make CMakeFiles/cmTC_1552d.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1552d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=H5P_SZIP -fPIE   -o CMakeFiles/cmTC_1552d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1552d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1552d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=H5P_SZIP    -rdynamic CMakeFiles/cmTC_1552d.dir/CheckFunctionExists.c.o  -o cmTC_1552d -lhdf5 
+/usr/bin/ld: cannot find -lhdf5
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1552d.dir/build.make:86: recipe for target 'cmTC_1552d' failed
+make[4]: *** [cmTC_1552d] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1552d/fast' failed
+make[3]: *** [cmTC_1552d/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function H5free_memory exists in the hdf5 failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b55d/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3b55d.dir/build.make CMakeFiles/cmTC_3b55d.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b55d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=H5free_memory -fPIE   -o CMakeFiles/cmTC_3b55d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3b55d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b55d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=H5free_memory    -rdynamic CMakeFiles/cmTC_3b55d.dir/CheckFunctionExists.c.o  -o cmTC_3b55d -lhdf5 
+/usr/bin/ld: cannot find -lhdf5
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3b55d.dir/build.make:86: recipe for target 'cmTC_3b55d' failed
+make[4]: *** [cmTC_3b55d] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3b55d/fast' failed
+make[3]: *** [cmTC_3b55d/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function H5Pset_libver_bounds exists in the hdf5 failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_deaee/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_deaee.dir/build.make CMakeFiles/cmTC_deaee.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_deaee.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=H5Pset_libver_bounds -fPIE   -o CMakeFiles/cmTC_deaee.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_deaee
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_deaee.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=H5Pset_libver_bounds    -rdynamic CMakeFiles/cmTC_deaee.dir/CheckFunctionExists.c.o  -o cmTC_deaee -lhdf5 
+/usr/bin/ld: cannot find -lhdf5
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_deaee.dir/build.make:86: recipe for target 'cmTC_deaee' failed
+make[4]: *** [cmTC_deaee] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_deaee/fast' failed
+make[3]: *** [cmTC_deaee/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test __CHAR_UNSIGNED__ failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fc4b/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7fc4b.dir/build.make CMakeFiles/cmTC_7fc4b.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fc4b.dir/src.c.o
+/usr/bin/cc  -I/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C/libsrc  -D__CHAR_UNSIGNED__ -fPIE   -o CMakeFiles/cmTC_7fc4b.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7fc4b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fc4b.dir/link.txt --verbose=1
+/usr/bin/cc  -D__CHAR_UNSIGNED__    -rdynamic CMakeFiles/cmTC_7fc4b.dir/src.c.o  -o cmTC_7fc4b 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+
+  #include <stdlib.h>
+
+  int main(void) {
+
+    char is_signed = (char) - 1;
+
+    if(is_signed < 0)
+
+      return 1;
+
+    else
+
+      return 0;
+
+}
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_32aca/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_32aca.dir/build.make CMakeFiles/cmTC_32aca.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32aca.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -I/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C/libsrc  -fPIE   -o CMakeFiles/cmTC_32aca.dir/CheckIncludeFile.c.o   -c /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: fatal error: sys/ndir.h: No such file or directory
+ #include <sys/ndir.h>
+                      ^
+compilation terminated.
+CMakeFiles/cmTC_32aca.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_32aca.dir/CheckIncludeFile.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_32aca.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_32aca/fast' failed
+make[3]: *** [cmTC_32aca/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file BaseTsd.h exists failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40c14/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_40c14.dir/build.make CMakeFiles/cmTC_40c14.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40c14.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -I/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C/libsrc  -fPIE   -o CMakeFiles/cmTC_40c14.dir/CheckIncludeFile.c.o   -c /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: BaseTsd.h: No such file or directory
+ #include <BaseTsd.h>
+                     ^
+compilation terminated.
+CMakeFiles/cmTC_40c14.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_40c14.dir/CheckIncludeFile.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_40c14.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_40c14/fast' failed
+make[3]: *** [cmTC_40c14/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f582f/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f582f.dir/build.make CMakeFiles/cmTC_f582f.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f582f.dir/SIZEOF_OFF64_T.c.o
+/usr/bin/cc  -I/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C/libsrc  -fPIE   -o CMakeFiles/cmTC_f582f.dir/SIZEOF_OFF64_T.c.o   -c /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CheckTypeSize/SIZEOF_OFF64_T.c
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CheckTypeSize/SIZEOF_OFF64_T.c:23:22: error: ‘off64_t’ undeclared here (not in a function)
+ #define SIZE (sizeof(off64_t))
+                      ^
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CheckTypeSize/SIZEOF_OFF64_T.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_f582f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f582f.dir/SIZEOF_OFF64_T.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_f582f.dir/SIZEOF_OFF64_T.c.o] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f582f/fast' failed
+make[3]: *** [cmTC_f582f/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CheckTypeSize/SIZEOF_OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2258d/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2258d.dir/build.make CMakeFiles/cmTC_2258d.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2258d.dir/SIZEOF___INT_64.c.o
+/usr/bin/cc  -I/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C/libsrc  -fPIE   -o CMakeFiles/cmTC_2258d.dir/SIZEOF___INT_64.c.o   -c /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CheckTypeSize/SIZEOF___INT_64.c
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CheckTypeSize/SIZEOF___INT_64.c:23:22: error: ‘__int64’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CheckTypeSize/SIZEOF___INT_64.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_2258d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2258d.dir/SIZEOF___INT_64.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_2258d.dir/SIZEOF___INT_64.c.o] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2258d/fast' failed
+make[3]: *** [cmTC_2258d/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CheckTypeSize/SIZEOF___INT_64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uchar failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_def0e/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_def0e.dir/build.make CMakeFiles/cmTC_def0e.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_def0e.dir/SIZEOF_UCHAR.c.o
+/usr/bin/cc  -I/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C/libsrc  -fPIE   -o CMakeFiles/cmTC_def0e.dir/SIZEOF_UCHAR.c.o   -c /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:23:22: error: ‘uchar’ undeclared here (not in a function)
+ #define SIZE (sizeof(uchar))
+                      ^
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_def0e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_def0e.dir/SIZEOF_UCHAR.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_def0e.dir/SIZEOF_UCHAR.c.o] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_def0e/fast' failed
+make[3]: *** [cmTC_def0e/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0b616/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0b616.dir/build.make CMakeFiles/cmTC_0b616.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b616.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C/libsrc  -DCHECK_FUNCTION_EXISTS=strlcat -fPIE   -o CMakeFiles/cmTC_0b616.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0b616
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b616.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlcat    -rdynamic CMakeFiles/cmTC_0b616.dir/CheckFunctionExists.c.o  -o cmTC_0b616 
+CMakeFiles/cmTC_0b616.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0b616.dir/build.make:86: recipe for target 'cmTC_0b616' failed
+make[4]: *** [cmTC_0b616] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0b616/fast' failed
+make[3]: *** [cmTC_0b616/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function MPI_Comm_f2C exists failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2be53/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2be53.dir/build.make CMakeFiles/cmTC_2be53.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2be53.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C/libsrc  -DCHECK_FUNCTION_EXISTS=MPI_Comm_f2C -fPIE   -o CMakeFiles/cmTC_2be53.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2be53
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2be53.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=MPI_Comm_f2C    -rdynamic CMakeFiles/cmTC_2be53.dir/CheckFunctionExists.c.o  -o cmTC_2be53 
+CMakeFiles/cmTC_2be53.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `MPI_Comm_f2C'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2be53.dir/build.make:86: recipe for target 'cmTC_2be53' failed
+make[4]: *** [cmTC_2be53] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2be53/fast' failed
+make[3]: *** [cmTC_2be53/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _filelengthi64 exists failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_260b5/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_260b5.dir/build.make CMakeFiles/cmTC_260b5.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_260b5.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C/libsrc  -DCHECK_FUNCTION_EXISTS=_filelengthi64 -fPIE   -o CMakeFiles/cmTC_260b5.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_260b5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_260b5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_filelengthi64    -rdynamic CMakeFiles/cmTC_260b5.dir/CheckFunctionExists.c.o  -o cmTC_260b5 
+CMakeFiles/cmTC_260b5.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_filelengthi64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_260b5.dir/build.make:86: recipe for target 'cmTC_260b5' failed
+make[4]: *** [cmTC_260b5] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_260b5/fast' failed
+make[3]: *** [cmTC_260b5/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build/CMakeFiles/CMakeTmp'
+
+

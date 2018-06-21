@@ -1,0 +1,1 @@
+/usr/bin/cc  -pipe -pedantic -O3 -DNDEBUG      -Wl,--disable-new-dtags -rdynamic CMakeFiles/big2gribex.dir/big2gribex.c.o  -o ../bin/big2gribex -Wl,-rpath,"\$ORIGIN/../lib" libgrib_tools.a ../lib/libgrib_api.so -lm -lpthread 

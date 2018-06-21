@@ -1,0 +1,1 @@
+/usr/bin/cc  -pipe -pedantic -O3 -DNDEBUG      -Wl,--disable-new-dtags -rdynamic CMakeFiles/grib_debug.dir/grib_debug.c.o  -o ../bin/grib_debug -Wl,-rpath,"\$ORIGIN/../lib" libgrib_tools.a ../lib/libgrib_api.so -lm -lpthread 

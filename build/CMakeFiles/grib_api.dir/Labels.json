@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/CMakeFiles/grib_api"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/CMakeFiles/grib_api.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/CMakeFiles/grib_api-complete.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-stamp/grib_api-install.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-stamp/grib_api-mkdir.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-stamp/grib_api-download.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-stamp/grib_api-update.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-stamp/grib_api-patch.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-stamp/grib_api-configure.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-stamp/grib_api-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"grib_api"
+		],
+		"name" : "grib_api"
+	}
+}

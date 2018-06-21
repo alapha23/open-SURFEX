@@ -1,0 +1,5 @@
+  if(  HAVE_AEC )
+    set(_grib_api_t_ccsds_condition TRUE)
+  else()
+    set(_grib_api_t_ccsds_condition FALSE)
+  endif()

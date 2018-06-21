@@ -1,0 +1,1 @@
+/usr/bin/gfortran    -fdefault-real-8 -fdefault-double-8 -g -fno-second-underscore -fpic  -ffpe-trap=overflow,zero,invalid -fbacktrace -fconvert=swap -O2 CMakeFiles/sxpost.dir/src/OFFLIN/sxpost.F90.o  -o SXPOST -Wl,-rpath,/home/gao/Documents/open-SURFEX/build/auxiliary/lib:::: libsurfex.a auxiliary/lib/libnetcdff.so auxiliary/lib/libgrib_api_f90.so 

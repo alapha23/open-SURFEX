@@ -1,0 +1,16 @@
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/bin/nf-config
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/lib/libnetcdff.so.6.1.1
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/lib/libnetcdff.so.6
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/lib/libnetcdff.so
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/include/netcdf_nc_interfaces.mod
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/include/netcdf4_f03.mod
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/include/netcdf_nc_data.mod
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/include/netcdf4_nf_interfaces.mod
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/include/netcdf_nf_data.mod
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/include/netcdf_fortv2_c_interfaces.mod
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/include/netcdf.inc
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/include/netcdf_f03.mod
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/include/netcdf4_nc_interfaces.mod
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/include/netcdf.mod
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/include/netcdf_nf_interfaces.mod
+/home/gao/Documents/open-SURFEX/_install/lib/surfex/include/typesizes.mod

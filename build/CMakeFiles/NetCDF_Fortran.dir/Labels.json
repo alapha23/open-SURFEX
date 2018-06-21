@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/CMakeFiles/NetCDF_Fortran"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/CMakeFiles/NetCDF_Fortran.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/CMakeFiles/NetCDF_Fortran-complete.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/NetCDF_Fortran-prefix/src/NetCDF_Fortran-stamp/NetCDF_Fortran-install.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/NetCDF_Fortran-prefix/src/NetCDF_Fortran-stamp/NetCDF_Fortran-mkdir.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/NetCDF_Fortran-prefix/src/NetCDF_Fortran-stamp/NetCDF_Fortran-download.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/NetCDF_Fortran-prefix/src/NetCDF_Fortran-stamp/NetCDF_Fortran-update.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/NetCDF_Fortran-prefix/src/NetCDF_Fortran-stamp/NetCDF_Fortran-patch.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/NetCDF_Fortran-prefix/src/NetCDF_Fortran-stamp/NetCDF_Fortran-configure.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/NetCDF_Fortran-prefix/src/NetCDF_Fortran-stamp/NetCDF_Fortran-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"NetCDF_Fortran"
+		],
+		"name" : "NetCDF_Fortran"
+	}
+}

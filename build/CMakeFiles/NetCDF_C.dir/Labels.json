@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/CMakeFiles/NetCDF_C"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/CMakeFiles/NetCDF_C.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/CMakeFiles/NetCDF_C-complete.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-install.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-mkdir.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-download.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-update.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-patch.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-configure.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"NetCDF_C"
+		],
+		"name" : "NetCDF_C"
+	}
+}

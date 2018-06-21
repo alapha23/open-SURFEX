@@ -1,0 +1,6 @@
+# Target labels
+ NetCDF_C
+# Source files and their labels
+/home/gao/Documents/open-SURFEX/build/CMakeFiles/NetCDF_C-final_install
+/home/gao/Documents/open-SURFEX/build/CMakeFiles/NetCDF_C-final_install.rule
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-final_install.rule

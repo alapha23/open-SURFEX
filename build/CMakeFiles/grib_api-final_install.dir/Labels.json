@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/CMakeFiles/grib_api-final_install"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/CMakeFiles/grib_api-final_install.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-stamp/grib_api-final_install.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"grib_api"
+		],
+		"name" : "grib_api-final_install"
+	}
+}

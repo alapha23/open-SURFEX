@@ -1,0 +1,1 @@
+/usr/bin/cc  -pipe -pedantic -O3 -DNDEBUG      -Wl,--disable-new-dtags -rdynamic CMakeFiles/grib_to_json.dir/grib_to_json.c.o  -o ../bin/grib_to_json -Wl,-rpath,"\$ORIGIN/../lib" libgrib_tools.a ../lib/libgrib_api.so -lm -lpthread 

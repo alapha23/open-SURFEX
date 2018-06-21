@@ -1,0 +1,1 @@
+/usr/bin/cc  -pipe -pedantic -O3 -DNDEBUG      -Wl,--disable-new-dtags -rdynamic CMakeFiles/tigge_accumulations.dir/tigge_accumulations.c.o  -o ../bin/tigge_accumulations -Wl,-rpath,"\$ORIGIN/../lib" ../lib/libgrib_api.so -lm -lpthread 

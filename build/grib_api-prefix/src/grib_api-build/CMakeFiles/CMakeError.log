@@ -1,0 +1,259 @@
+Performing C SOURCE FILE Test IEEE_BE failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d25e/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0d25e.dir/build.make CMakeFiles/cmTC_0d25e.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d25e.dir/src.c.o
+/usr/bin/cc   -pipe -DIEEE_BE -fPIE   -o CMakeFiles/cmTC_0d25e.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0d25e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d25e.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DIEEE_BE    -rdynamic CMakeFiles/cmTC_0d25e.dir/src.c.o  -o cmTC_0d25e 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+int compare(unsigned char* a,unsigned char* b) {
+         while(*a != 0) if (*(b++)!=*(a++)) return 1;
+         return 0;
+       }
+       int main(int argc,char** argv) {
+         unsigned char dc[]={0x30,0x61,0xDE,0x80,0x93,0x67,0xCC,0xD9,0};
+         double da=1.23456789e-75;
+         unsigned char* ca;
+
+         unsigned char fc[]={0x05,0x83,0x48,0x22,0};
+         float fa=1.23456789e-35;
+
+         if (sizeof(double)!=8) return 1;
+
+         ca=(unsigned char*)&da;
+         if (compare(dc,ca)) return 1;
+
+         if (sizeof(float)!=4) return 1;
+
+         ca=(unsigned char*)&fa;
+         if (compare(fc,ca)) return 1;
+
+         return 0;
+       }
+Determining if the lseek exist failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b548/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8b548.dir/build.make CMakeFiles/cmTC_8b548.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b548.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_8b548.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘lseek’ undeclared (first use in this function)
+   return ((int*)(&lseek))[argc];
+                   ^~~~~
+/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_8b548.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8b548.dir/CheckSymbolExists.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_8b548.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8b548/fast' failed
+make[3]: *** [cmTC_8b548/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lseek
+  return ((int*)(&lseek))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the open exist failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33d09/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_33d09.dir/build.make CMakeFiles/cmTC_33d09.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33d09.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_33d09.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘open’ undeclared (first use in this function)
+   return ((int*)(&open))[argc];
+                   ^~~~
+/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_33d09.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_33d09.dir/CheckSymbolExists.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_33d09.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_33d09/fast' failed
+make[3]: *** [cmTC_33d09/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef open
+  return ((int*)(&open))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the funopen exist failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69046/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_69046.dir/build.make CMakeFiles/cmTC_69046.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69046.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_69046.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘funopen’ undeclared (first use in this function)
+   return ((int*)(&funopen))[argc];
+                   ^~~~~~~
+/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_69046.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_69046.dir/CheckSymbolExists.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_69046.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_69046/fast' failed
+make[3]: *** [cmTC_69046/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef funopen
+  return ((int*)(&funopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files sys/malloc.h exist failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed7c1/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ed7c1.dir/build.make CMakeFiles/cmTC_ed7c1.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed7c1.dir/EC_HAVE_SYS_MALLOC_H.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_ed7c1.dir/EC_HAVE_SYS_MALLOC_H.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckIncludeFiles/EC_HAVE_SYS_MALLOC_H.c
+/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckIncludeFiles/EC_HAVE_SYS_MALLOC_H.c:2:24: fatal error: sys/malloc.h: No such file or directory
+ #include <sys/malloc.h>
+                        ^
+compilation terminated.
+CMakeFiles/cmTC_ed7c1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ed7c1.dir/EC_HAVE_SYS_MALLOC_H.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_ed7c1.dir/EC_HAVE_SYS_MALLOC_H.c.o] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ed7c1/fast' failed
+make[3]: *** [cmTC_ed7c1/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <sys/malloc.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test EC_HAVE_SYSPROC failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62b05/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_62b05.dir/build.make CMakeFiles/cmTC_62b05.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62b05.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_SYSPROC -fPIE   -o CMakeFiles/cmTC_62b05.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c:1:22: fatal error: sys/proc.h: No such file or directory
+ #include <sys/proc.h>
+                      ^
+compilation terminated.
+CMakeFiles/cmTC_62b05.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_62b05.dir/src.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_62b05.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_62b05/fast' failed
+make[3]: *** [cmTC_62b05/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/proc.h>
+int main(){ return 0; }
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_283df/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_283df.dir/build.make CMakeFiles/cmTC_283df.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_283df.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_283df.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_283df
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_283df.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_283df.dir/CheckSymbolExists.c.o  -o cmTC_283df 
+CMakeFiles/cmTC_283df.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_283df.dir/build.make:86: recipe for target 'cmTC_283df' failed
+make[4]: *** [cmTC_283df] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_283df/fast' failed
+make[3]: *** [cmTC_283df/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1614/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d1614.dir/build.make CMakeFiles/cmTC_d1614.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1614.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pipe -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_d1614.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d1614
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1614.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d1614.dir/CheckFunctionExists.c.o  -o cmTC_d1614 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d1614.dir/build.make:86: recipe for target 'cmTC_d1614' failed
+make[4]: *** [cmTC_d1614] Error 1
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d1614/fast' failed
+make[3]: *** [cmTC_d1614/fast] Error 2
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+

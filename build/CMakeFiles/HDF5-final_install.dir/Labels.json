@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/CMakeFiles/HDF5-final_install"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/CMakeFiles/HDF5-final_install.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/HDF5-prefix/src/HDF5-stamp/HDF5-final_install.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"HDF5"
+		],
+		"name" : "HDF5-final_install"
+	}
+}

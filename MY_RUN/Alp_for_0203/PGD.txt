@@ -1,0 +1,822 @@
+ &FULL   VERSION     
+(-)                                               
+           8
+ &FULL   BUG         
+(-)                                               
+           1
+ &FULL   STORAGETYPE 
+(-)                                               
+PGD                                     
+ &FULL   SPLIT_PATCH 
+(-)                                               
+ T
+ &FULL   SEA         
+(-)                                               
+SEAFLX                                  
+ &FULL   WATER       
+(-)                                               
+WATFLX                                  
+ &FULL   NATURE      
+(-)                                               
+ISBA                                    
+ &FULL   TOWN        
+(-)                                               
+TEB                                     
+ &FULL   DIM_FULL    
+(-)                                               
+           1
+ &FULL   DIM_SEA     
+(-)                                               
+           0
+ &FULL   DIM_NATURE  
+(-)                                               
+           1
+ &FULL   DIM_WATER   
+(-)                                               
+           0
+ &FULL   DIM_TOWN    
+(-)                                               
+           0
+ &FULL   ECOCLIMAP   
+(-)                                               
+ F
+ &FULL   ECOSG       
+(-)                                               
+ F
+ &FULL   WATER_TO_NAT
+(-)                                               
+ F
+ &FULL   TOWN_TO_ROCK
+(-)                                               
+ F
+ &FULL   GARDEN      
+(-)                                               
+ F
+ &FULL   DATA_IRRIG  
+FLAG TO READ USER IRRIGATION DATA FOR ECOCLIMAP2  
+ F
+ &FULL   LCLIM_LAI   
+FLAG TO USE CLIMATOLOGICAL LAI                    
+ T
+ &FULL   GRID_TYPE   
+GRID TYPE                                         
+LONLAT REG                              
+ &FULL   LONMIN      
+                                                  
+   8.7166999999999994     
+ &FULL   LONMAX      
+                                                  
+   8.7166999999999994     
+ &FULL   LATMIN      
+                                                  
+   47.049999999999997     
+ &FULL   LATMAX      
+                                                  
+   47.049999999999997     
+ &FULL   NLON        
+                                                  
+           1
+ &FULL   NLAT        
+                                                  
+           1
+ &FULL   REG_LON     
+                                                  
+      0.87167000D+01
+ &FULL   REG_LAT     
+                                                  
+      0.47050000D+02
+ &FULL   FRAC_SEA    
+(-)                                               
+      0.00000000D+00
+ &FULL   FRAC_NATURE 
+(-)                                               
+      0.10000000D+01
+ &FULL   FRAC_WATER  
+(-)                                               
+      0.00000000D+00
+ &FULL   FRAC_TOWN   
+(-)                                               
+      0.00000000D+00
+ &FULL   COVER_LIST  
+(LOGICAL LIST)                                    
+ F F F T F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ &FULL   COVER004    
+X_Y_COVER004                                      
+      0.10000000D+01
+ &FULL   ZS          
+X_Y_ZS (M)                                        
+      0.11850000D+04
+ &FULL   AVG_ZS      
+X_Y_AVG_ZS (M)                                    
+      0.11850000D+04
+ &FULL   SIL_ZS      
+X_Y_SIL_ZS (M)                                    
+      0.11850000D+04
+ &FULL   SSO_STDEV   
+X_Y_SSO_STDEV (M)                                 
+      0.00000000D+00
+ &FULL   MIN_ZS      
+X_Y_MIN_ZS (M)                                    
+      0.11850000D+04
+ &FULL   MAX_ZS      
+X_Y_MAX_ZS (M)                                    
+      0.11850000D+04
+ &FULL   SSO_ANIS    
+X_Y_SSO_ANIS (-)                                  
+      0.00000000D+00
+ &FULL   SSO_DIR     
+X_Y_SSO_DIR (DEG)                                 
+      0.00000000D+00
+ &FULL   SSO_SLOPE   
+X_Y_SSO_SLOPE (-)                                 
+      0.00000000D+00
+ &FULL   HO2IP       
+X_Y_HO2IP (M)                                     
+      0.00000000D+00
+ &FULL   HO2JP       
+X_Y_HO2JP (M)                                     
+      0.00000000D+00
+ &FULL   HO2IM       
+X_Y_HO2IM (M)                                     
+      0.00000000D+00
+ &FULL   HO2JM       
+X_Y_HO2JM (M)                                     
+      0.00000000D+00
+ &FULL   AOSIP       
+X_Y_AOSIP (-)                                     
+      0.00000000D+00
+ &FULL   AOSJP       
+X_Y_AOSJP (-)                                     
+      0.00000000D+00
+ &FULL   AOSIM       
+X_Y_AOSIM (-)                                     
+      0.00000000D+00
+ &FULL   AOSJM       
+X_Y_AOSJM (-)                                     
+      0.00000000D+00
+ &FULL   DUMMY_GR_NBR
+                                                  
+           0
+ &FULL   CH_EMIS     
+CH_EMIS                                           
+ F
+ &NATURE ISBA        
+ISBA                                              
+3-L                                     
+ &NATURE PEDOTF      
+PEDOTF                                            
+CH78                                    
+ &NATURE PHOTO       
+PHOTO                                             
+NON                                     
+ &NATURE TR_ML       
+TR_ML                                             
+ F
+ &NATURE ALBEDO      
+ALBEDO                                            
+DRY                                     
+ &NATURE RM_PATCH    
+RM_PATCH                                          
+   0.0000000000000000     
+ &NATURE GROUND_LAYER
+GROUND_LAYER                                      
+           3
+ &NATURE NBIOMASS    
+NBIOMASS                                          
+           0
+ &NATURE PATCH_NUMBER
+PATCH_NUMBER                                      
+           1
+ &NATURE MEB_PATCH   
+(LOGICAL LIST)                                    
+ F
+ &NATURE CLAY        
+X_Y_CLAY                                          
+      0.45000000D+00
+ &NATURE SAND        
+X_Y_SAND                                          
+      0.10000000D+00
+ &NATURE SOCP        
+                                                  
+ F
+ &NATURE PERMAFROST  
+                                                  
+ F
+ &NATURE NO          
+                                                  
+ F
+ &NATURE RUNOFFB     
+X_Y_RUNOFFB                                       
+      0.50000000D+00
+ &NATURE WDRAIN      
+X_Y_WDRAIN                                        
+      0.00000000D+00
+ &NATURE CTI         
+                                                  
+ F
+ &NATURE L_VEGTYPE   
+L_VEGTYPE                                         
+ T
+ &NATURE D_VEGTY_P1  
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P2  
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P3  
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P4  
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P5  
+X_Y_DATA_ISBATYPE                                 
+      0.10000000D+01
+ &NATURE D_VEGTY_P6  
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P7  
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P8  
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P9  
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P10 
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P11 
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P12 
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P13 
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P14 
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P15 
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P16 
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P17 
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P18 
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE D_VEGTY_P19 
+X_Y_DATA_ISBATYPE                                 
+      0.00000000D+00
+ &NATURE NDATA_TIME  
+(-)                                               
+          12
+ &NATURE L_VEG       
+L_VEG                                             
+ T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F
+ &NATURE D_VEG_T01V01
+X_Y_D_VEG                                         
+      0.96000000D+00
+ &NATURE D_VEG_T02V01
+X_Y_D_VEG                                         
+      0.96000000D+00
+ &NATURE D_VEG_T03V01
+X_Y_D_VEG                                         
+      0.96000000D+00
+ &NATURE D_VEG_T04V01
+X_Y_D_VEG                                         
+      0.96000000D+00
+ &NATURE D_VEG_T05V01
+X_Y_D_VEG                                         
+      0.96000000D+00
+ &NATURE D_VEG_T06V01
+X_Y_D_VEG                                         
+      0.96000000D+00
+ &NATURE D_VEG_T07V01
+X_Y_D_VEG                                         
+      0.96000000D+00
+ &NATURE D_VEG_T08V01
+X_Y_D_VEG                                         
+      0.96000000D+00
+ &NATURE D_VEG_T09V01
+X_Y_D_VEG                                         
+      0.96000000D+00
+ &NATURE D_VEG_T10V01
+X_Y_D_VEG                                         
+      0.96000000D+00
+ &NATURE D_VEG_T11V01
+X_Y_D_VEG                                         
+      0.96000000D+00
+ &NATURE D_VEG_T12V01
+X_Y_D_VEG                                         
+      0.96000000D+00
+ &NATURE L_LAI       
+L_LAI                                             
+ T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F
+ &NATURE D_LAI_T01V01
+X_Y_D_LAI                                         
+      0.25000000D+01
+ &NATURE D_LAI_T02V01
+X_Y_D_LAI                                         
+      0.25000000D+01
+ &NATURE D_LAI_T03V01
+X_Y_D_LAI                                         
+      0.25000000D+01
+ &NATURE D_LAI_T04V01
+X_Y_D_LAI                                         
+      0.25000000D+01
+ &NATURE D_LAI_T05V01
+X_Y_D_LAI                                         
+      0.25000000D+01
+ &NATURE D_LAI_T06V01
+X_Y_D_LAI                                         
+      0.25000000D+01
+ &NATURE D_LAI_T07V01
+X_Y_D_LAI                                         
+      0.25000000D+01
+ &NATURE D_LAI_T08V01
+X_Y_D_LAI                                         
+      0.25000000D+01
+ &NATURE D_LAI_T09V01
+X_Y_D_LAI                                         
+      0.25000000D+01
+ &NATURE D_LAI_T10V01
+X_Y_D_LAI                                         
+      0.25000000D+01
+ &NATURE D_LAI_T11V01
+X_Y_D_LAI                                         
+      0.25000000D+01
+ &NATURE D_LAI_T12V01
+X_Y_D_LAI                                         
+      0.25000000D+01
+ &NATURE L_Z0        
+L_Z0                                              
+ T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F
+ &NATURE D_Z0_T01V01 
+X_Y_D_Z0                                          
+      0.25000000D+01
+ &NATURE D_Z0_T02V01 
+X_Y_D_Z0                                          
+      0.25000000D+01
+ &NATURE D_Z0_T03V01 
+X_Y_D_Z0                                          
+      0.25000000D+01
+ &NATURE D_Z0_T04V01 
+X_Y_D_Z0                                          
+      0.25000000D+01
+ &NATURE D_Z0_T05V01 
+X_Y_D_Z0                                          
+      0.25000000D+01
+ &NATURE D_Z0_T06V01 
+X_Y_D_Z0                                          
+      0.25000000D+01
+ &NATURE D_Z0_T07V01 
+X_Y_D_Z0                                          
+      0.25000000D+01
+ &NATURE D_Z0_T08V01 
+X_Y_D_Z0                                          
+      0.25000000D+01
+ &NATURE D_Z0_T09V01 
+X_Y_D_Z0                                          
+      0.25000000D+01
+ &NATURE D_Z0_T10V01 
+X_Y_D_Z0                                          
+      0.25000000D+01
+ &NATURE D_Z0_T11V01 
+X_Y_D_Z0                                          
+      0.25000000D+01
+ &NATURE D_Z0_T12V01 
+X_Y_D_Z0                                          
+      0.25000000D+01
+ &NATURE L_EMIS      
+L_EMIS                                            
+ T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F
+ &NATURE D_EMI_T01V01
+X_Y_D_EMIS                                        
+      0.98000000D+00
+ &NATURE D_EMI_T02V01
+X_Y_D_EMIS                                        
+      0.98000000D+00
+ &NATURE D_EMI_T03V01
+X_Y_D_EMIS                                        
+      0.98000000D+00
+ &NATURE D_EMI_T04V01
+X_Y_D_EMIS                                        
+      0.98000000D+00
+ &NATURE D_EMI_T05V01
+X_Y_D_EMIS                                        
+      0.98000000D+00
+ &NATURE D_EMI_T06V01
+X_Y_D_EMIS                                        
+      0.98000000D+00
+ &NATURE D_EMI_T07V01
+X_Y_D_EMIS                                        
+      0.98000000D+00
+ &NATURE D_EMI_T08V01
+X_Y_D_EMIS                                        
+      0.98000000D+00
+ &NATURE D_EMI_T09V01
+X_Y_D_EMIS                                        
+      0.98000000D+00
+ &NATURE D_EMI_T10V01
+X_Y_D_EMIS                                        
+      0.98000000D+00
+ &NATURE D_EMI_T11V01
+X_Y_D_EMIS                                        
+      0.98000000D+00
+ &NATURE D_EMI_T12V01
+X_Y_D_EMIS                                        
+      0.98000000D+00
+ &NATURE L_H_VEG     
+L_H_VEG                                           
+ F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_GNDLITTER 
+L_GNDLITTER                                       
+ F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_Z0LITTER  
+L_Z0LITTER                                        
+ F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_ALBNIR_VEG
+L_ALBNIR_VEG                                      
+ T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F
+ &NATURE D_ANV_T01V01
+X_Y_D_ANV_T01V01                                  
+      0.30000000D+00
+ &NATURE D_ANV_T02V01
+X_Y_D_ANV_T02V01                                  
+      0.30000000D+00
+ &NATURE D_ANV_T03V01
+X_Y_D_ANV_T03V01                                  
+      0.30000000D+00
+ &NATURE D_ANV_T04V01
+X_Y_D_ANV_T04V01                                  
+      0.30000000D+00
+ &NATURE D_ANV_T05V01
+X_Y_D_ANV_T05V01                                  
+      0.30000000D+00
+ &NATURE D_ANV_T06V01
+X_Y_D_ANV_T06V01                                  
+      0.30000000D+00
+ &NATURE D_ANV_T07V01
+X_Y_D_ANV_T07V01                                  
+      0.30000000D+00
+ &NATURE D_ANV_T08V01
+X_Y_D_ANV_T08V01                                  
+      0.30000000D+00
+ &NATURE D_ANV_T09V01
+X_Y_D_ANV_T09V01                                  
+      0.30000000D+00
+ &NATURE D_ANV_T10V01
+X_Y_D_ANV_T10V01                                  
+      0.30000000D+00
+ &NATURE D_ANV_T11V01
+X_Y_D_ANV_T11V01                                  
+      0.30000000D+00
+ &NATURE D_ANV_T12V01
+X_Y_D_ANV_T12V01                                  
+      0.30000000D+00
+ &NATURE L_ALBVIS_VEG
+L_ALBVIS_VEG                                      
+ T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F
+ &NATURE D_AVV_T01V01
+X_Y_D_AVV_T01V01                                  
+      0.10000000D+00
+ &NATURE D_AVV_T02V01
+X_Y_D_AVV_T02V01                                  
+      0.10000000D+00
+ &NATURE D_AVV_T03V01
+X_Y_D_AVV_T03V01                                  
+      0.10000000D+00
+ &NATURE D_AVV_T04V01
+X_Y_D_AVV_T04V01                                  
+      0.10000000D+00
+ &NATURE D_AVV_T05V01
+X_Y_D_AVV_T05V01                                  
+      0.10000000D+00
+ &NATURE D_AVV_T06V01
+X_Y_D_AVV_T06V01                                  
+      0.10000000D+00
+ &NATURE D_AVV_T07V01
+X_Y_D_AVV_T07V01                                  
+      0.10000000D+00
+ &NATURE D_AVV_T08V01
+X_Y_D_AVV_T08V01                                  
+      0.10000000D+00
+ &NATURE D_AVV_T09V01
+X_Y_D_AVV_T09V01                                  
+      0.10000000D+00
+ &NATURE D_AVV_T10V01
+X_Y_D_AVV_T10V01                                  
+      0.10000000D+00
+ &NATURE D_AVV_T11V01
+X_Y_D_AVV_T11V01                                  
+      0.10000000D+00
+ &NATURE D_AVV_T12V01
+X_Y_D_AVV_T12V01                                  
+      0.10000000D+00
+ &NATURE L_ALBUV_VEG 
+L_ALBUV_VEG                                       
+ T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F
+ &NATURE D_AUV_T01V01
+X_Y_D_AUV_T01V01                                  
+      0.42500000D-01
+ &NATURE D_AUV_T02V01
+X_Y_D_AUV_T02V01                                  
+      0.42500000D-01
+ &NATURE D_AUV_T03V01
+X_Y_D_AUV_T03V01                                  
+      0.42500000D-01
+ &NATURE D_AUV_T04V01
+X_Y_D_AUV_T04V01                                  
+      0.42500000D-01
+ &NATURE D_AUV_T05V01
+X_Y_D_AUV_T05V01                                  
+      0.42500000D-01
+ &NATURE D_AUV_T06V01
+X_Y_D_AUV_T06V01                                  
+      0.42500000D-01
+ &NATURE D_AUV_T07V01
+X_Y_D_AUV_T07V01                                  
+      0.42500000D-01
+ &NATURE D_AUV_T08V01
+X_Y_D_AUV_T08V01                                  
+      0.42500000D-01
+ &NATURE D_AUV_T09V01
+X_Y_D_AUV_T09V01                                  
+      0.42500000D-01
+ &NATURE D_AUV_T10V01
+X_Y_D_AUV_T10V01                                  
+      0.42500000D-01
+ &NATURE D_AUV_T11V01
+X_Y_D_AUV_T11V01                                  
+      0.42500000D-01
+ &NATURE D_AUV_T12V01
+X_Y_D_AUV_T12V01                                  
+      0.42500000D-01
+ &NATURE L_ALBNIR_SOI
+L_ALBNIR_SOI                                      
+ T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F
+ &NATURE D_ANS_T01V01
+X_Y_D_ANS_T01V01                                  
+      0.30000000D+00
+ &NATURE D_ANS_T02V01
+X_Y_D_ANS_T02V01                                  
+      0.30000000D+00
+ &NATURE D_ANS_T03V01
+X_Y_D_ANS_T03V01                                  
+      0.30000000D+00
+ &NATURE D_ANS_T04V01
+X_Y_D_ANS_T04V01                                  
+      0.30000000D+00
+ &NATURE D_ANS_T05V01
+X_Y_D_ANS_T05V01                                  
+      0.30000000D+00
+ &NATURE D_ANS_T06V01
+X_Y_D_ANS_T06V01                                  
+      0.30000000D+00
+ &NATURE D_ANS_T07V01
+X_Y_D_ANS_T07V01                                  
+      0.30000000D+00
+ &NATURE D_ANS_T08V01
+X_Y_D_ANS_T08V01                                  
+      0.30000000D+00
+ &NATURE D_ANS_T09V01
+X_Y_D_ANS_T09V01                                  
+      0.30000000D+00
+ &NATURE D_ANS_T10V01
+X_Y_D_ANS_T10V01                                  
+      0.30000000D+00
+ &NATURE D_ANS_T11V01
+X_Y_D_ANS_T11V01                                  
+      0.30000000D+00
+ &NATURE D_ANS_T12V01
+X_Y_D_ANS_T12V01                                  
+      0.30000000D+00
+ &NATURE L_ALBVIS_SOI
+L_ALBVIS_SOI                                      
+ T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F
+ &NATURE D_AVS_T01V01
+X_Y_D_AVS_T01V01                                  
+      0.10000000D+00
+ &NATURE D_AVS_T02V01
+X_Y_D_AVS_T02V01                                  
+      0.10000000D+00
+ &NATURE D_AVS_T03V01
+X_Y_D_AVS_T03V01                                  
+      0.10000000D+00
+ &NATURE D_AVS_T04V01
+X_Y_D_AVS_T04V01                                  
+      0.10000000D+00
+ &NATURE D_AVS_T05V01
+X_Y_D_AVS_T05V01                                  
+      0.10000000D+00
+ &NATURE D_AVS_T06V01
+X_Y_D_AVS_T06V01                                  
+      0.10000000D+00
+ &NATURE D_AVS_T07V01
+X_Y_D_AVS_T07V01                                  
+      0.10000000D+00
+ &NATURE D_AVS_T08V01
+X_Y_D_AVS_T08V01                                  
+      0.10000000D+00
+ &NATURE D_AVS_T09V01
+X_Y_D_AVS_T09V01                                  
+      0.10000000D+00
+ &NATURE D_AVS_T10V01
+X_Y_D_AVS_T10V01                                  
+      0.10000000D+00
+ &NATURE D_AVS_T11V01
+X_Y_D_AVS_T11V01                                  
+      0.10000000D+00
+ &NATURE D_AVS_T12V01
+X_Y_D_AVS_T12V01                                  
+      0.10000000D+00
+ &NATURE L_ALBUV_SOI 
+L_ALBUV_SOI                                       
+ T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F T F F F F F F F F F F F F F F F F F F
+ &NATURE D_AUS_T01V01
+X_Y_D_AUS_T01V01                                  
+      0.60000000D-01
+ &NATURE D_AUS_T02V01
+X_Y_D_AUS_T02V01                                  
+      0.60000000D-01
+ &NATURE D_AUS_T03V01
+X_Y_D_AUS_T03V01                                  
+      0.60000000D-01
+ &NATURE D_AUS_T04V01
+X_Y_D_AUS_T04V01                                  
+      0.60000000D-01
+ &NATURE D_AUS_T05V01
+X_Y_D_AUS_T05V01                                  
+      0.60000000D-01
+ &NATURE D_AUS_T06V01
+X_Y_D_AUS_T06V01                                  
+      0.60000000D-01
+ &NATURE D_AUS_T07V01
+X_Y_D_AUS_T07V01                                  
+      0.60000000D-01
+ &NATURE D_AUS_T08V01
+X_Y_D_AUS_T08V01                                  
+      0.60000000D-01
+ &NATURE D_AUS_T09V01
+X_Y_D_AUS_T09V01                                  
+      0.60000000D-01
+ &NATURE D_AUS_T10V01
+X_Y_D_AUS_T10V01                                  
+      0.60000000D-01
+ &NATURE D_AUS_T11V01
+X_Y_D_AUS_T11V01                                  
+      0.60000000D-01
+ &NATURE D_AUS_T12V01
+X_Y_D_AUS_T12V01                                  
+      0.60000000D-01
+ &NATURE L_RSMIN     
+L_RSMIN                                           
+ T F F F F F F F F F F F F F F F F F F F
+ &NATURE D_RSMIN_V01 
+X_Y_D_RSMIN                                       
+      0.40000000D+02
+ &NATURE L_GAMMA     
+L_GAMMA                                           
+ T F F F F F F F F F F F F F F F F F F F
+ &NATURE D_GAMMA_V01 
+X_Y_D_GAMMA                                       
+      0.00000000D+00
+ &NATURE L_WRMAX_CF  
+L_WRMAX_CF                                        
+ T F F F F F F F F F F F F F F F F F F F
+ &NATURE D_WRMAX_V01 
+X_Y_D_WRMAX_CF                                    
+      0.20000000D+00
+ &NATURE L_RGL       
+L_RGL                                             
+ T F F F F F F F F F F F F F F F F F F F
+ &NATURE D_RGL_V01   
+X_Y_D_RGL                                         
+      0.10000000D+03
+ &NATURE L_CV        
+L_CV                                              
+ T F F F F F F F F F F F F F F F F F F F
+ &NATURE D_CV_V01    
+X_Y_D_CV                                          
+      0.20000000D-04
+ &NATURE L_Z0_O_Z0H  
+L_Z0_O_Z0H                                        
+ T F F F F F F F F F F F F F F F F F F F
+ &NATURE D_Z0H_V01   
+X_Y_D_Z0_O_Z0H                                    
+      0.10000000D+02
+ &NATURE L_DG        
+L_DG                                              
+ T F F F F F F F F F F F F F F F F F F F
+ &NATURE D_DG_L01V01 
+X_Y_D_DG_L01V01                                   
+      0.10000000D-01
+ &NATURE D_DG_L02V01 
+X_Y_D_DG_L02V01                                   
+      0.16000000D+01
+ &NATURE D_DG_L03V01 
+X_Y_D_DG_L03V01                                   
+      0.16000000D+01
+ &NATURE L_ROOTFRAC  
+L_ROOTFRAC                                        
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_GROUND_DPT
+L_GROUND_DPT                                      
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_ROOT_DEPTH
+L_ROOT_DEPTH                                      
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_ROOT_EXT  
+L_ROOT_EXT                                        
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_ROOT_LIN  
+L_ROOT_LIN                                        
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_DICE      
+L_ROOT_LIN                                        
+ T F F F F F F F F F F F F F F F F F F F
+ &NATURE D_DICE_V01  
+X_Y_D_DICE_V01                                    
+      0.12800000D+01
+ &NATURE L_GMES      
+L_GMES                                            
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_BSLAI     
+L_BSLAI                                           
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_LAIMIN    
+L_LAIMIN                                          
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_SEFOLD    
+L_SEFOLD                                          
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_GC        
+L_GC                                              
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_DMAX      
+L_DMAX                                            
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_F2I       
+L_F2I                                             
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_STRESS    
+L_STRESS                                          
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_H_TREE    
+L_H_TREE                                          
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_RE25      
+L_RE25                                            
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_CE_NITRO  
+L_CE_NITRO                                        
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_CF_NITRO  
+L_CF_NITRO                                        
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_CNA_NITRO 
+L_CNA_NITRO                                       
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_IRRIG     
+L_IRRIG                                           
+ F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_WATSUP    
+L_WATSUP                                          
+ F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_SEED_M    
+L_SEED_M                                          
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_SEED_D    
+L_SEED_D                                          
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_REAP_M    
+L_REAP_M                                          
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_REAP_D    
+L_REAP_D                                          
+ F F F F F F F F F F F F F F F F F F F F
+ &NATURE L_CONDSAT   
+L_CONDSAT                                         
+ F
+ &NATURE L_MPOTSAT   
+L_MPOTSAT                                         
+ F
+ &NATURE L_BCOEF     
+L_BCOEF                                           
+ F
+ &NATURE L_WWILT     
+L_WWILT                                           
+ F
+ &NATURE L_WFC       
+L_WFC                                             
+ F
+ &NATURE L_WSAT      
+L_WSAT                                            
+ F

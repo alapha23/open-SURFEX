@@ -1,0 +1,13 @@
+# Target labels
+ NetCDF_C
+# Source files and their labels
+/home/gao/Documents/open-SURFEX/build/CMakeFiles/NetCDF_C
+/home/gao/Documents/open-SURFEX/build/CMakeFiles/NetCDF_C.rule
+/home/gao/Documents/open-SURFEX/build/CMakeFiles/NetCDF_C-complete.rule
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-install.rule
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-mkdir.rule
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-download.rule
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-update.rule
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-patch.rule
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-configure.rule
+/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-build.rule

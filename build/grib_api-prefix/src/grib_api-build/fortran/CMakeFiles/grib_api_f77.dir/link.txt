@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC  -pipe -pedantic -O3 -DNDEBUG  -Wl,--disable-new-dtags -shared -Wl,-soname,libgrib_api_f77.so -o ../lib/libgrib_api_f77.so CMakeFiles/grib_api_f77.dir/grib_fortran.c.o CMakeFiles/grib_api_f77.dir/grib_f77.c.o -Wl,-rpath,"\$ORIGIN/../lib" ../lib/libgrib_api.so -lm -lpthread 

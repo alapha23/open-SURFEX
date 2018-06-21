@@ -1,0 +1,1 @@
+/usr/bin/cc  -pipe -pedantic -O3 -DNDEBUG      -Wl,--disable-new-dtags -rdynamic CMakeFiles/tigge_name.dir/tigge_name.c.o  -o ../bin/tigge_name -Wl,-rpath,"\$ORIGIN/../lib" ../lib/libgrib_api.so -lm -lpthread 

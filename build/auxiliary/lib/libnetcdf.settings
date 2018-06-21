@@ -1,0 +1,35 @@
+# NetCDF C Configuration Summary
+==============================
+
+# General
+-------
+NetCDF Version:		4.4.1.1
+Configured On:		Thu Jun 21 12:01:38 KST 2018
+Host System:		x86_64-Linux-4.9.0-3-amd64
+Build Directory: 	/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-build
+Install Prefix:         /home/gao/Documents/open-SURFEX/build/auxiliary
+
+# Compiling Options
+-----------------
+C Compiler:		/usr/bin/cc
+CFLAGS:			 -O3 -DNDEBUG
+CPPFLAGS:		 
+LDFLAGS:		 
+AM_CFLAGS:		
+AM_CPPFLAGS:		
+AM_LDFLAGS:		
+Shared Library:		yes
+Static Library:		no
+Extra libraries:	-lhdf5_hl -lhdf5 -ldl -lm -lz
+
+# Features
+--------
+NetCDF-2 API:		yes
+HDF4 Support:		no
+NetCDF-4 API:		yes
+NC-4 Parallel Support:	no
+PNetCDF Support:	no
+DAP Support:		no
+Diskless Support:	yes
+MMap Support:		no
+JNA Support:		no

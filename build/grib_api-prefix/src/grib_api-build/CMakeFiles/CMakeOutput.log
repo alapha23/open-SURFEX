@@ -1,0 +1,2223 @@
+The system is: Linux - 4.9.0-3-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/3.11.3/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b31df/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b31df.dir/build.make CMakeFiles/cmTC_b31df.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b31df.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b31df.dir/testCCompiler.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b31df
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b31df.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b31df.dir/testCCompiler.c.o  -o cmTC_b31df 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc04f/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_dc04f.dir/build.make CMakeFiles/cmTC_dc04f.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc04f.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dc04f.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_dc04f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc04f.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_dc04f.dir/CMakeCCompilerABI.c.o  -o cmTC_dc04f 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-18+deb9u1' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_dc04f' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZw2Rul.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_dc04f /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_dc04f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_dc04f' '-mtune=generic' '-march=x86-64'
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_dc04f/fast"]
+  ignore line: [make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_dc04f.dir/build.make CMakeFiles/cmTC_dc04f.dir/build]
+  ignore line: [make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_dc04f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_dc04f.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_dc04f]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc04f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_dc04f.dir/CMakeCCompilerABI.c.o  -o cmTC_dc04f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-18+deb9u1' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_dc04f' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZw2Rul.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_dc04f /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_dc04f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZw2Rul.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_dc04f] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
+    arg [CMakeFiles/cmTC_dc04f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6] ==> [/usr/lib/gcc/x86_64-linux-gnu/6]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73ac9/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_73ac9.dir/build.make CMakeFiles/cmTC_73ac9.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73ac9.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_73ac9.dir/feature_tests.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_73ac9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73ac9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_73ac9.dir/feature_tests.c.o  -o cmTC_73ac9 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5cd9e/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5cd9e.dir/build.make CMakeFiles/cmTC_5cd9e.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cd9e.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_5cd9e.dir/feature_tests.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5cd9e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cd9e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5cd9e.dir/feature_tests.c.o  -o cmTC_5cd9e 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e41ac/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e41ac.dir/build.make CMakeFiles/cmTC_e41ac.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e41ac.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_e41ac.dir/feature_tests.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e41ac
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e41ac.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e41ac.dir/feature_tests.c.o  -o cmTC_e41ac 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test EC_HAVE_C_INLINE succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17233/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_17233.dir/build.make CMakeFiles/cmTC_17233.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17233.dir/src.c.o
+/usr/bin/cc   -DEC_HAVE_C_INLINE   -o CMakeFiles/cmTC_17233.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_17233
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17233.dir/link.txt --verbose=1
+/usr/bin/cc  -DEC_HAVE_C_INLINE    -rdynamic CMakeFiles/cmTC_17233.dir/src.c.o  -o cmTC_17233 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+ typedef int foo_t;
+			static inline foo_t static_foo(){return 0;}
+			foo_t foo(){return 0;}
+			int main(int argc, char *argv[]){return 0;}
+		  
+Performing C SOURCE FILE Test C_FLAG_TEST_1 succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db8fb/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_db8fb.dir/build.make CMakeFiles/cmTC_db8fb.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db8fb.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_TEST_1   -pipe -o CMakeFiles/cmTC_db8fb.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_db8fb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db8fb.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_TEST_1    -rdynamic CMakeFiles/cmTC_db8fb.dir/src.c.o  -o cmTC_db8fb 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d372d/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d372d.dir/build.make CMakeFiles/cmTC_d372d.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d372d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_d372d.dir/CheckIncludeFile.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d372d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d372d.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_d372d.dir/CheckIncludeFile.c.o  -o cmTC_d372d 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b518/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5b518.dir/build.make CMakeFiles/cmTC_5b518.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b518.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_5b518.dir/CheckIncludeFile.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5b518
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b518.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_5b518.dir/CheckIncludeFile.c.o  -o cmTC_5b518 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22a08/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_22a08.dir/build.make CMakeFiles/cmTC_22a08.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22a08.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_22a08.dir/CheckIncludeFile.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_22a08
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22a08.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_22a08.dir/CheckIncludeFile.c.o  -o cmTC_22a08 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of char passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bdadf/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bdadf.dir/build.make CMakeFiles/cmTC_bdadf.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bdadf.dir/EC_SIZEOF_CHAR.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_bdadf.dir/EC_SIZEOF_CHAR.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckTypeSize/EC_SIZEOF_CHAR.c
+Linking C executable cmTC_bdadf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdadf.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_bdadf.dir/EC_SIZEOF_CHAR.c.o  -o cmTC_bdadf 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e939c/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e939c.dir/build.make CMakeFiles/cmTC_e939c.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e939c.dir/EC_SIZEOF_SHORT.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_e939c.dir/EC_SIZEOF_SHORT.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckTypeSize/EC_SIZEOF_SHORT.c
+Linking C executable cmTC_e939c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e939c.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_e939c.dir/EC_SIZEOF_SHORT.c.o  -o cmTC_e939c 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0c49/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c0c49.dir/build.make CMakeFiles/cmTC_c0c49.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0c49.dir/EC_SIZEOF_INT.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_c0c49.dir/EC_SIZEOF_INT.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckTypeSize/EC_SIZEOF_INT.c
+Linking C executable cmTC_c0c49
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0c49.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_c0c49.dir/EC_SIZEOF_INT.c.o  -o cmTC_c0c49 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11b3e/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_11b3e.dir/build.make CMakeFiles/cmTC_11b3e.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11b3e.dir/EC_SIZEOF_LONG.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_11b3e.dir/EC_SIZEOF_LONG.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckTypeSize/EC_SIZEOF_LONG.c
+Linking C executable cmTC_11b3e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11b3e.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_11b3e.dir/EC_SIZEOF_LONG.c.o  -o cmTC_11b3e 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf606/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bf606.dir/build.make CMakeFiles/cmTC_bf606.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf606.dir/EC_SIZEOF_LONG_LONG.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_bf606.dir/EC_SIZEOF_LONG_LONG.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckTypeSize/EC_SIZEOF_LONG_LONG.c
+Linking C executable cmTC_bf606
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf606.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_bf606.dir/EC_SIZEOF_LONG_LONG.c.o  -o cmTC_bf606 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of float passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d33b/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3d33b.dir/build.make CMakeFiles/cmTC_3d33b.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d33b.dir/EC_SIZEOF_FLOAT.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_3d33b.dir/EC_SIZEOF_FLOAT.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckTypeSize/EC_SIZEOF_FLOAT.c
+Linking C executable cmTC_3d33b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d33b.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_3d33b.dir/EC_SIZEOF_FLOAT.c.o  -o cmTC_3d33b 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of double passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2a00/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e2a00.dir/build.make CMakeFiles/cmTC_e2a00.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2a00.dir/EC_SIZEOF_DOUBLE.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_e2a00.dir/EC_SIZEOF_DOUBLE.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckTypeSize/EC_SIZEOF_DOUBLE.c
+Linking C executable cmTC_e2a00
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2a00.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_e2a00.dir/EC_SIZEOF_DOUBLE.c.o  -o cmTC_e2a00 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long double passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_390e4/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_390e4.dir/build.make CMakeFiles/cmTC_390e4.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_390e4.dir/EC_SIZEOF_LONG_DOUBLE.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_390e4.dir/EC_SIZEOF_LONG_DOUBLE.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckTypeSize/EC_SIZEOF_LONG_DOUBLE.c
+Linking C executable cmTC_390e4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_390e4.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_390e4.dir/EC_SIZEOF_LONG_DOUBLE.c.o  -o cmTC_390e4 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95654/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_95654.dir/build.make CMakeFiles/cmTC_95654.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95654.dir/EC_SIZEOF_SIZE_T.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_95654.dir/EC_SIZEOF_SIZE_T.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckTypeSize/EC_SIZEOF_SIZE_T.c
+Linking C executable cmTC_95654
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95654.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_95654.dir/EC_SIZEOF_SIZE_T.c.o  -o cmTC_95654 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02930/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_02930.dir/build.make CMakeFiles/cmTC_02930.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02930.dir/EC_SIZEOF_SSIZE_T.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_02930.dir/EC_SIZEOF_SSIZE_T.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckTypeSize/EC_SIZEOF_SSIZE_T.c
+Linking C executable cmTC_02930
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02930.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_02930.dir/EC_SIZEOF_SSIZE_T.c.o  -o cmTC_02930 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01561/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_01561.dir/build.make CMakeFiles/cmTC_01561.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01561.dir/EC_SIZEOF_OFF_T.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_01561.dir/EC_SIZEOF_OFF_T.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckTypeSize/EC_SIZEOF_OFF_T.c
+Linking C executable cmTC_01561
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01561.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_01561.dir/EC_SIZEOF_OFF_T.c.o  -o cmTC_01561 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_92803/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_92803.dir/build.make CMakeFiles/cmTC_92803.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92803.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_92803.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_92803
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92803.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_92803.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_92803 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6f95/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d6f95.dir/build.make CMakeFiles/cmTC_d6f95.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6f95.dir/TestEndianess.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_d6f95.dir/TestEndianess.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_d6f95
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6f95.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_d6f95.dir/TestEndianess.c.o  -o cmTC_d6f95 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test IEEE_LE succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e984/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9e984.dir/build.make CMakeFiles/cmTC_9e984.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e984.dir/src.c.o
+/usr/bin/cc   -pipe -DIEEE_LE -fPIE   -o CMakeFiles/cmTC_9e984.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9e984
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e984.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DIEEE_LE    -rdynamic CMakeFiles/cmTC_9e984.dir/src.c.o  -o cmTC_9e984 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+int compare(unsigned char* a,unsigned char* b) {
+         while(*a != 0) if (*(b++)!=*(a++)) return 1;
+         return 0;
+       }
+       int main(int argc,char** argv) {
+         unsigned char dc[]={0xD9,0xCC,0x67,0x93,0x80,0xDE,0x61,0x30,0};
+         double da=1.23456789e-75;
+         unsigned char* ca;
+
+         unsigned char fc[]={0x22,0x48,0x83,0x05,0};
+         float fa=1.23456789e-35;
+
+         if (sizeof(double)!=8) return 1;
+
+         ca=(unsigned char*)&da;
+         if (compare(dc,ca)) return 1;
+
+         if (sizeof(float)!=4) return 1;
+
+         ca=(unsigned char*)&fa;
+         if (compare(fc,ca)) return 1;
+
+         return 0;
+       }
+Determining if the fseek exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ebf48/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ebf48.dir/build.make CMakeFiles/cmTC_ebf48.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebf48.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_ebf48.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ebf48
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebf48.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_ebf48.dir/CheckSymbolExists.c.o  -o cmTC_ebf48 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseek
+  return ((int*)(&fseek))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fseeko exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a43a/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2a43a.dir/build.make CMakeFiles/cmTC_2a43a.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a43a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_2a43a.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2a43a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a43a.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_2a43a.dir/CheckSymbolExists.c.o  -o cmTC_2a43a 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko
+  return ((int*)(&fseeko))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ftello exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d967/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7d967.dir/build.make CMakeFiles/cmTC_7d967.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d967.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_7d967.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7d967
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d967.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_7d967.dir/CheckSymbolExists.c.o  -o cmTC_7d967 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ftello
+  return ((int*)(&ftello))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fopen exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db2e8/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_db2e8.dir/build.make CMakeFiles/cmTC_db2e8.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db2e8.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_db2e8.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_db2e8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db2e8.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_db2e8.dir/CheckSymbolExists.c.o  -o cmTC_db2e8 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fopen
+  return ((int*)(&fopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fmemopen exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3d51/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e3d51.dir/build.make CMakeFiles/cmTC_e3d51.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3d51.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_e3d51.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e3d51
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3d51.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_e3d51.dir/CheckSymbolExists.c.o  -o cmTC_e3d51 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmemopen
+  return ((int*)(&fmemopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the flock exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77dc2/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_77dc2.dir/build.make CMakeFiles/cmTC_77dc2.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77dc2.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_77dc2.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_77dc2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77dc2.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_77dc2.dir/CheckSymbolExists.c.o  -o cmTC_77dc2 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/file.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef flock
+  return ((int*)(&flock))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mmap exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a7a5/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0a7a5.dir/build.make CMakeFiles/cmTC_0a7a5.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a7a5.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_0a7a5.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0a7a5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a7a5.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_0a7a5.dir/CheckSymbolExists.c.o  -o cmTC_0a7a5 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mmap
+  return ((int*)(&mmap))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_523de/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_523de.dir/build.make CMakeFiles/cmTC_523de.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_523de.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_523de.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_523de
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_523de.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_523de.dir/CheckSymbolExists.c.o  -o cmTC_523de 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the F_GETLK exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02437/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_02437.dir/build.make CMakeFiles/cmTC_02437.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02437.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_02437.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_02437
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02437.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_02437.dir/CheckSymbolExists.c.o  -o cmTC_02437 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_GETLK
+  return ((int*)(&F_GETLK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the F_SETLK exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bbb4e/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bbb4e.dir/build.make CMakeFiles/cmTC_bbb4e.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bbb4e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_bbb4e.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bbb4e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbb4e.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_bbb4e.dir/CheckSymbolExists.c.o  -o cmTC_bbb4e 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_SETLK
+  return ((int*)(&F_SETLK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the F_SETLKW exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d7ad/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9d7ad.dir/build.make CMakeFiles/cmTC_9d7ad.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d7ad.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_9d7ad.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9d7ad
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d7ad.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_9d7ad.dir/CheckSymbolExists.c.o  -o cmTC_9d7ad 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_SETLKW
+  return ((int*)(&F_SETLKW))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the F_GETLK64 exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3c43/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b3c43.dir/build.make CMakeFiles/cmTC_b3c43.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3c43.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_b3c43.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b3c43
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3c43.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_b3c43.dir/CheckSymbolExists.c.o  -o cmTC_b3c43 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_GETLK64
+  return ((int*)(&F_GETLK64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the F_SETLK64 exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8d09/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e8d09.dir/build.make CMakeFiles/cmTC_e8d09.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8d09.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_e8d09.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e8d09
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8d09.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_e8d09.dir/CheckSymbolExists.c.o  -o cmTC_e8d09 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_SETLK64
+  return ((int*)(&F_SETLK64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the F_SETLKW64 exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0589e/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0589e.dir/build.make CMakeFiles/cmTC_0589e.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0589e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_0589e.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0589e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0589e.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_0589e.dir/CheckSymbolExists.c.o  -o cmTC_0589e 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_SETLKW64
+  return ((int*)(&F_SETLKW64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the MAP_ANONYMOUS exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_414d8/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_414d8.dir/build.make CMakeFiles/cmTC_414d8.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_414d8.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_414d8.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_414d8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_414d8.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_414d8.dir/CheckSymbolExists.c.o  -o cmTC_414d8 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MAP_ANONYMOUS
+  return ((int*)(&MAP_ANONYMOUS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the MAP_ANON exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26933/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_26933.dir/build.make CMakeFiles/cmTC_26933.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26933.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_26933.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_26933
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26933.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_26933.dir/CheckSymbolExists.c.o  -o cmTC_26933 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MAP_ANON
+  return ((int*)(&MAP_ANON))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files assert.h exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d112a/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d112a.dir/build.make CMakeFiles/cmTC_d112a.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d112a.dir/EC_HAVE_ASSERT_H.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_d112a.dir/EC_HAVE_ASSERT_H.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckIncludeFiles/EC_HAVE_ASSERT_H.c
+Linking C executable cmTC_d112a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d112a.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_d112a.dir/EC_HAVE_ASSERT_H.c.o  -o cmTC_d112a 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58c14/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_58c14.dir/build.make CMakeFiles/cmTC_58c14.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58c14.dir/EC_HAVE_STDLIB_H.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_58c14.dir/EC_HAVE_STDLIB_H.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckIncludeFiles/EC_HAVE_STDLIB_H.c
+Linking C executable cmTC_58c14
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58c14.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_58c14.dir/EC_HAVE_STDLIB_H.c.o  -o cmTC_58c14 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35f88/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_35f88.dir/build.make CMakeFiles/cmTC_35f88.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35f88.dir/EC_HAVE_UNISTD_H.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_35f88.dir/EC_HAVE_UNISTD_H.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckIncludeFiles/EC_HAVE_UNISTD_H.c
+Linking C executable cmTC_35f88
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35f88.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_35f88.dir/EC_HAVE_UNISTD_H.c.o  -o cmTC_35f88 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d42e/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7d42e.dir/build.make CMakeFiles/cmTC_7d42e.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d42e.dir/EC_HAVE_STRING_H.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_7d42e.dir/EC_HAVE_STRING_H.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckIncludeFiles/EC_HAVE_STRING_H.c
+Linking C executable cmTC_7d42e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d42e.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_7d42e.dir/EC_HAVE_STRING_H.c.o  -o cmTC_7d42e 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_32b17/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_32b17.dir/build.make CMakeFiles/cmTC_32b17.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32b17.dir/EC_HAVE_STRINGS_H.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_32b17.dir/EC_HAVE_STRINGS_H.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckIncludeFiles/EC_HAVE_STRINGS_H.c
+Linking C executable cmTC_32b17
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32b17.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_32b17.dir/EC_HAVE_STRINGS_H.c.o  -o cmTC_32b17 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_84da0/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_84da0.dir/build.make CMakeFiles/cmTC_84da0.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84da0.dir/EC_HAVE_SYS_STAT_H.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_84da0.dir/EC_HAVE_SYS_STAT_H.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckIncludeFiles/EC_HAVE_SYS_STAT_H.c
+Linking C executable cmTC_84da0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84da0.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_84da0.dir/EC_HAVE_SYS_STAT_H.c.o  -o cmTC_84da0 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_96b6f/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_96b6f.dir/build.make CMakeFiles/cmTC_96b6f.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96b6f.dir/EC_HAVE_SYS_TIME_H.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_96b6f.dir/EC_HAVE_SYS_TIME_H.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckIncludeFiles/EC_HAVE_SYS_TIME_H.c
+Linking C executable cmTC_96b6f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96b6f.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_96b6f.dir/EC_HAVE_SYS_TIME_H.c.o  -o cmTC_96b6f 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3285e/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3285e.dir/build.make CMakeFiles/cmTC_3285e.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3285e.dir/EC_HAVE_SYS_TYPES_H.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_3285e.dir/EC_HAVE_SYS_TYPES_H.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckIncludeFiles/EC_HAVE_SYS_TYPES_H.c
+Linking C executable cmTC_3285e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3285e.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_3285e.dir/EC_HAVE_SYS_TYPES_H.c.o  -o cmTC_3285e 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0e3c/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e0e3c.dir/build.make CMakeFiles/cmTC_e0e3c.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0e3c.dir/EC_HAVE_MALLOC_H.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_e0e3c.dir/EC_HAVE_MALLOC_H.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckIncludeFiles/EC_HAVE_MALLOC_H.c
+Linking C executable cmTC_e0e3c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0e3c.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_e0e3c.dir/EC_HAVE_MALLOC_H.c.o  -o cmTC_e0e3c 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/param.h exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eae1b/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_eae1b.dir/build.make CMakeFiles/cmTC_eae1b.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eae1b.dir/EC_HAVE_SYS_PARAM_H.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_eae1b.dir/EC_HAVE_SYS_PARAM_H.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckIncludeFiles/EC_HAVE_SYS_PARAM_H.c
+Linking C executable cmTC_eae1b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eae1b.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_eae1b.dir/EC_HAVE_SYS_PARAM_H.c.o  -o cmTC_eae1b 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/mount.h exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b878/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7b878.dir/build.make CMakeFiles/cmTC_7b878.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b878.dir/EC_HAVE_SYS_MOUNT_H.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_7b878.dir/EC_HAVE_SYS_MOUNT_H.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckIncludeFiles/EC_HAVE_SYS_MOUNT_H.c
+Linking C executable cmTC_7b878
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b878.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_7b878.dir/EC_HAVE_SYS_MOUNT_H.c.o  -o cmTC_7b878 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/vfs.h exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ab2f/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0ab2f.dir/build.make CMakeFiles/cmTC_0ab2f.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ab2f.dir/EC_HAVE_SYS_VFS_H.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_0ab2f.dir/EC_HAVE_SYS_VFS_H.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckIncludeFiles/EC_HAVE_SYS_VFS_H.c
+Linking C executable cmTC_0ab2f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ab2f.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_0ab2f.dir/EC_HAVE_SYS_VFS_H.c.o  -o cmTC_0ab2f 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test EC_HAVE_OFFT succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35af7/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_35af7.dir/build.make CMakeFiles/cmTC_35af7.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35af7.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_OFFT -fPIE   -o CMakeFiles/cmTC_35af7.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_35af7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35af7.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_OFFT    -rdynamic CMakeFiles/cmTC_35af7.dir/src.c.o  -o cmTC_35af7 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/types.h>
+int main(){ off_t l=0; return 0;}
+
+Performing C SOURCE FILE Test EC_HAVE_OFF64T succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e3bf/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7e3bf.dir/build.make CMakeFiles/cmTC_7e3bf.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e3bf.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_OFF64T -fPIE   -o CMakeFiles/cmTC_7e3bf.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7e3bf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e3bf.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_OFF64T    -rdynamic CMakeFiles/cmTC_7e3bf.dir/src.c.o  -o cmTC_7e3bf 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _LARGEFILE64_SOURCE
+#include <stdio.h>
+#include <sys/types.h>
+int main(){ off64_t l=0; return 0;}
+
+Performing C SOURCE FILE Test EC_HAVE_STRUCT_STAT succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24072/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_24072.dir/build.make CMakeFiles/cmTC_24072.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24072.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_STRUCT_STAT -fPIE   -o CMakeFiles/cmTC_24072.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_24072
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24072.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_STRUCT_STAT    -rdynamic CMakeFiles/cmTC_24072.dir/src.c.o  -o cmTC_24072 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/stat.h>
+int main(){ struct stat s; return 0; }
+Performing C SOURCE FILE Test EC_HAVE_STRUCT_STAT64 succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_621cc/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_621cc.dir/build.make CMakeFiles/cmTC_621cc.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_621cc.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_STRUCT_STAT64 -fPIE   -o CMakeFiles/cmTC_621cc.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_621cc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_621cc.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_STRUCT_STAT64    -rdynamic CMakeFiles/cmTC_621cc.dir/src.c.o  -o cmTC_621cc 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _LARGEFILE64_SOURCE
+#include <sys/stat.h>
+int main(){ struct stat64 s; return 0; }
+Performing C SOURCE FILE Test EC_HAVE_STAT succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cff46/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cff46.dir/build.make CMakeFiles/cmTC_cff46.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cff46.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_STAT -fPIE   -o CMakeFiles/cmTC_cff46.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cff46
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cff46.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_STAT    -rdynamic CMakeFiles/cmTC_cff46.dir/src.c.o  -o cmTC_cff46 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/stat.h>
+int main(){ struct stat s;	stat("",&s); return 0; }
+Performing C SOURCE FILE Test EC_HAVE_STAT64 succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00e33/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_00e33.dir/build.make CMakeFiles/cmTC_00e33.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00e33.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_STAT64 -fPIE   -o CMakeFiles/cmTC_00e33.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_00e33
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00e33.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_STAT64    -rdynamic CMakeFiles/cmTC_00e33.dir/src.c.o  -o cmTC_00e33 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _LARGEFILE64_SOURCE
+#include <sys/stat.h>
+int main(){ struct stat64 s; stat64("",&s); return 0; }
+Performing C SOURCE FILE Test EC_HAVE_FSTAT succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ae8e/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2ae8e.dir/build.make CMakeFiles/cmTC_2ae8e.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ae8e.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_FSTAT -fPIE   -o CMakeFiles/cmTC_2ae8e.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2ae8e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ae8e.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_FSTAT    -rdynamic CMakeFiles/cmTC_2ae8e.dir/src.c.o  -o cmTC_2ae8e 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/stat.h>
+int main(){ struct stat s; fstat(1,&s); return 0; }
+Performing C SOURCE FILE Test EC_HAVE_FSTAT64 succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd3d6/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fd3d6.dir/build.make CMakeFiles/cmTC_fd3d6.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd3d6.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_FSTAT64 -fPIE   -o CMakeFiles/cmTC_fd3d6.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fd3d6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd3d6.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_FSTAT64    -rdynamic CMakeFiles/cmTC_fd3d6.dir/src.c.o  -o cmTC_fd3d6 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _LARGEFILE64_SOURCE
+#include <sys/stat.h>
+int main(){ struct stat64 s; fstat64(1,&s); return 0; }
+Performing C SOURCE FILE Test EC_HAVE_FSEEKO64 succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8cb60/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8cb60.dir/build.make CMakeFiles/cmTC_8cb60.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8cb60.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_FSEEKO64 -fPIE   -o CMakeFiles/cmTC_8cb60.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8cb60
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cb60.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_FSEEKO64    -rdynamic CMakeFiles/cmTC_8cb60.dir/src.c.o  -o cmTC_8cb60 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _LARGEFILE64_SOURCE
+#include <stdio.h>
+#include <sys/types.h>
+int main(){FILE* file;off64_t l=0;fseeko64(file,l,SEEK_CUR);return 0;}
+
+Performing C SOURCE FILE Test EC_HAVE_FTELLO64 succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5725/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a5725.dir/build.make CMakeFiles/cmTC_a5725.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5725.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_FTELLO64 -fPIE   -o CMakeFiles/cmTC_a5725.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a5725
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5725.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_FTELLO64    -rdynamic CMakeFiles/cmTC_a5725.dir/src.c.o  -o cmTC_a5725 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _LARGEFILE64_SOURCE
+#include <stdio.h>
+#include <sys/types.h>
+int main(){FILE* file;off64_t l = ftello64(file);return 0;}
+
+Performing C SOURCE FILE Test EC_HAVE_LSEEK64 succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d942f/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d942f.dir/build.make CMakeFiles/cmTC_d942f.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d942f.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_LSEEK64 -fPIE   -o CMakeFiles/cmTC_d942f.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d942f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d942f.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_LSEEK64    -rdynamic CMakeFiles/cmTC_d942f.dir/src.c.o  -o cmTC_d942f 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _LARGEFILE64_SOURCE
+#include <sys/types.h>
+#include <unistd.h>
+int main(){off64_t h = lseek64(0,0,SEEK_SET);return 0;}
+
+Performing C SOURCE FILE Test EC_HAVE_OPEN64 succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb6e5/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cb6e5.dir/build.make CMakeFiles/cmTC_cb6e5.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb6e5.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_OPEN64 -fPIE   -o CMakeFiles/cmTC_cb6e5.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cb6e5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb6e5.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_OPEN64    -rdynamic CMakeFiles/cmTC_cb6e5.dir/src.c.o  -o cmTC_cb6e5 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _LARGEFILE64_SOURCE
+#include <fcntl.h>
+int main(){int fd = open64("name",O_RDWR|O_CREAT,0777);return 0;}
+
+Performing C SOURCE FILE Test EC_HAVE_FOPEN64 succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd08f/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fd08f.dir/build.make CMakeFiles/cmTC_fd08f.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd08f.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_FOPEN64 -fPIE   -o CMakeFiles/cmTC_fd08f.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fd08f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd08f.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_FOPEN64    -rdynamic CMakeFiles/cmTC_fd08f.dir/src.c.o  -o cmTC_fd08f 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _LARGEFILE64_SOURCE
+#include <stdio.h>
+int main(){FILE* file = fopen64("name","w");return 0;}
+
+Performing C SOURCE FILE Test EC_HAVE_FTRUNCATE64 succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c052e/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c052e.dir/build.make CMakeFiles/cmTC_c052e.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c052e.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_FTRUNCATE64 -fPIE   -o CMakeFiles/cmTC_c052e.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c052e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c052e.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_FTRUNCATE64    -rdynamic CMakeFiles/cmTC_c052e.dir/src.c.o  -o cmTC_c052e 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _LARGEFILE64_SOURCE
+#include <unistd.h>
+#include <sys/types.h>
+int main(){ftruncate64(0,(off64_t)0);return 0;}
+
+Performing C SOURCE FILE Test EC_HAVE_FLOCK64 succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4d63e/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4d63e.dir/build.make CMakeFiles/cmTC_4d63e.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d63e.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_FLOCK64 -fPIE   -o CMakeFiles/cmTC_4d63e.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4d63e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d63e.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_FLOCK64    -rdynamic CMakeFiles/cmTC_4d63e.dir/src.c.o  -o cmTC_4d63e 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _LARGEFILE64_SOURCE
+#include <fcntl.h>
+int main(){struct flock64 l;return 0;}
+
+Performing C SOURCE FILE Test EC_HAVE_MMAP64 succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56ab5/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_56ab5.dir/build.make CMakeFiles/cmTC_56ab5.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56ab5.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_MMAP64 -fPIE   -o CMakeFiles/cmTC_56ab5.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_56ab5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56ab5.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_MMAP64    -rdynamic CMakeFiles/cmTC_56ab5.dir/src.c.o  -o cmTC_56ab5 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _LARGEFILE64_SOURCE
+#include <sys/mman.h>
+int main(){void* addr = mmap64(0,10,PROT_READ|PROT_WRITE,MAP_PRIVATE,10,0); return 0;}
+
+Performing C SOURCE FILE Test EC_HAVE_STRUCT_STATVFS succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab593/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ab593.dir/build.make CMakeFiles/cmTC_ab593.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab593.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_STRUCT_STATVFS -fPIE   -o CMakeFiles/cmTC_ab593.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ab593
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab593.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_STRUCT_STATVFS    -rdynamic CMakeFiles/cmTC_ab593.dir/src.c.o  -o cmTC_ab593 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/statvfs.h>
+int main(){ struct statvfs v; }
+Performing C SOURCE FILE Test EC_HAVE_STRUCT_STATVFS64 succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98cf1/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_98cf1.dir/build.make CMakeFiles/cmTC_98cf1.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98cf1.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_STRUCT_STATVFS64 -fPIE   -o CMakeFiles/cmTC_98cf1.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_98cf1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98cf1.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_STRUCT_STATVFS64    -rdynamic CMakeFiles/cmTC_98cf1.dir/src.c.o  -o cmTC_98cf1 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _LARGEFILE64_SOURCE
+#include <sys/statvfs.h>
+int main(){ struct statvfs64 v; }
+Performing C SOURCE FILE Test EC_HAVE_FOPENCOOKIE succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_504d0/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_504d0.dir/build.make CMakeFiles/cmTC_504d0.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_504d0.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_FOPENCOOKIE -fPIE   -o CMakeFiles/cmTC_504d0.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_504d0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_504d0.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_FOPENCOOKIE    -rdynamic CMakeFiles/cmTC_504d0.dir/src.c.o  -o cmTC_504d0 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _GNU_SOURCE
+#include <stdio.h>
+int main(){ void* cookie; const char* mode; cookie_io_functions_t iof; FILE* fopencookie(void *cookie, const char *mode, cookie_io_functions_t iof); }
+Determining if the fsync exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc170/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cc170.dir/build.make CMakeFiles/cmTC_cc170.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc170.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_cc170.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cc170
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc170.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_cc170.dir/CheckSymbolExists.c.o  -o cmTC_cc170 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fsync
+  return ((int*)(&fsync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fdatasync exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4c8e/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d4c8e.dir/build.make CMakeFiles/cmTC_d4c8e.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4c8e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_d4c8e.dir/CheckSymbolExists.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d4c8e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4c8e.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_d4c8e.dir/CheckSymbolExists.c.o  -o cmTC_d4c8e 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+File /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fdatasync
+  return ((int*)(&fdatasync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test EC_HAVE_DIRFD succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_861c7/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_861c7.dir/build.make CMakeFiles/cmTC_861c7.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_861c7.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_DIRFD -fPIE   -o CMakeFiles/cmTC_861c7.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_861c7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_861c7.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_DIRFD    -rdynamic CMakeFiles/cmTC_861c7.dir/src.c.o  -o cmTC_861c7 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/types.h>
+#include <dirent.h>
+int main(){ DIR *dirp; int i = dirfd(dirp); }
+
+Performing C SOURCE FILE Test EC_HAVE_SYSPROCFS succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4318f/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4318f.dir/build.make CMakeFiles/cmTC_4318f.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4318f.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_SYSPROCFS -fPIE   -o CMakeFiles/cmTC_4318f.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4318f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4318f.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_SYSPROCFS    -rdynamic CMakeFiles/cmTC_4318f.dir/src.c.o  -o cmTC_4318f 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/procfs.h>
+int main(){ return 0; }
+
+Performing C SOURCE FILE Test EC_HAVE_EXECINFO_BACKTRACE succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f4f5/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9f4f5.dir/build.make CMakeFiles/cmTC_9f4f5.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f4f5.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_EXECINFO_BACKTRACE -fPIE   -o CMakeFiles/cmTC_9f4f5.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9f4f5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f4f5.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_EXECINFO_BACKTRACE    -rdynamic CMakeFiles/cmTC_9f4f5.dir/src.c.o  -o cmTC_9f4f5 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <unistd.h>
+#include <execinfo.h>
+ int main(){ void ** buffer; int i = backtrace(buffer, 256); }
+
+Performing C SOURCE FILE Test EC_HAVE_GMTIME_R succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f4cc/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5f4cc.dir/build.make CMakeFiles/cmTC_5f4cc.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f4cc.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_GMTIME_R -fPIE   -o CMakeFiles/cmTC_5f4cc.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5f4cc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f4cc.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_GMTIME_R    -rdynamic CMakeFiles/cmTC_5f4cc.dir/src.c.o  -o cmTC_5f4cc 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <time.h>
+int main(){ time_t now; time(&now); struct tm t; gmtime_r(&now,&t); }
+
+Performing C SOURCE FILE Test EC_HAVE_GETPWUID_R succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4bd5c/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4bd5c.dir/build.make CMakeFiles/cmTC_4bd5c.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4bd5c.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_GETPWUID_R -fPIE   -o CMakeFiles/cmTC_4bd5c.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4bd5c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bd5c.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_GETPWUID_R    -rdynamic CMakeFiles/cmTC_4bd5c.dir/src.c.o  -o cmTC_4bd5c 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <unistd.h>
+#include <sys/types.h>
+#include <pwd.h>
+int main(){ char buf[4096]; struct passwd pwbuf; struct passwd *pwbufp = 0; getpwuid_r(getuid(), &pwbuf, buf, sizeof(buf), &pwbufp); }
+
+Performing C SOURCE FILE Test EC_HAVE_GETPWNAM_R succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e26de/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e26de.dir/build.make CMakeFiles/cmTC_e26de.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e26de.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_GETPWNAM_R -fPIE   -o CMakeFiles/cmTC_e26de.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e26de
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e26de.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_GETPWNAM_R    -rdynamic CMakeFiles/cmTC_e26de.dir/src.c.o  -o cmTC_e26de 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/types.h>
+#include <pwd.h>
+int main(){ struct passwd p; char line[1024]; int n = getpwnam_r("user",&p,line,sizeof(line),0); }
+
+Performing C SOURCE FILE Test EC_HAVE_READDIR_R succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9d44/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a9d44.dir/build.make CMakeFiles/cmTC_a9d44.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9d44.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_READDIR_R -fPIE   -o CMakeFiles/cmTC_a9d44.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c:2:53: warning: ‘readdir_r’ is deprecated [-Wdeprecated-declarations]
+ int main(){ DIR *dirp; struct dirent *entry; struct dirent **result; int i = readdir_r(dirp, entry, result); }
+                                                     ^~~~~~
+In file included from /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c:1:0:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+Linking C executable cmTC_a9d44
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9d44.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_READDIR_R    -rdynamic CMakeFiles/cmTC_a9d44.dir/src.c.o  -o cmTC_a9d44 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <dirent.h>
+int main(){ DIR *dirp; struct dirent *entry; struct dirent **result; int i = readdir_r(dirp, entry, result); }
+
+Performing C SOURCE FILE Test EC_HAVE_DIRENT_D_TYPE succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_894e0/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_894e0.dir/build.make CMakeFiles/cmTC_894e0.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_894e0.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_DIRENT_D_TYPE -fPIE   -o CMakeFiles/cmTC_894e0.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_894e0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_894e0.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_DIRENT_D_TYPE    -rdynamic CMakeFiles/cmTC_894e0.dir/src.c.o  -o cmTC_894e0 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <dirent.h>
+int main(){ DIR *dirp; struct dirent *entry; if(entry->d_type) { dirp = 0; } }
+
+Performing C SOURCE FILE Test EC_HAVE_GETHOSTBYNAME_R succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fbfb7/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fbfb7.dir/build.make CMakeFiles/cmTC_fbfb7.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbfb7.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_GETHOSTBYNAME_R -fPIE   -o CMakeFiles/cmTC_fbfb7.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fbfb7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbfb7.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_GETHOSTBYNAME_R    -rdynamic CMakeFiles/cmTC_fbfb7.dir/src.c.o  -o cmTC_fbfb7 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <netdb.h>
+int main(){ const char *name; struct hostent *ret; char *buf; struct hostent **result; size_t buflen; int *h_errnop; int i = gethostbyname_r(name,ret,buf,buflen,result,h_errnop); }
+
+Performing C SOURCE FILE Test EC_HAVE_ATTRIBUTE_CONSTRUCTOR succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d15f/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2d15f.dir/build.make CMakeFiles/cmTC_2d15f.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d15f.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_ATTRIBUTE_CONSTRUCTOR -fPIE   -o CMakeFiles/cmTC_2d15f.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2d15f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d15f.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_ATTRIBUTE_CONSTRUCTOR    -rdynamic CMakeFiles/cmTC_2d15f.dir/src.c.o  -o cmTC_2d15f 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdio.h>
+static int argc_;static char** argv_;static char** envp_;
+int main(){printf("%d", argc_);}
+__attribute__ ((__constructor__)) static void before_main(int argc, char* argv[], char* envp[]){argc_ = argc;argv_ = argv;envp_ = envp;}
+
+Performing C SOURCE FILE Test EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV succeded with the following compile output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d75a/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8d75a.dir/build.make CMakeFiles/cmTC_8d75a.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d75a.dir/test_EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV.c.o
+/usr/bin/cc   -pipe -DEC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV -fPIE   -o CMakeFiles/cmTC_8d75a.dir/test_EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckCSource/test_EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV.c
+Linking C executable cmTC_8d75a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d75a.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV    -rdynamic CMakeFiles/cmTC_8d75a.dir/test_EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV.c.o  -o cmTC_8d75a 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Performing C SOURCE FILE Run EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV succeded with the following run output:
+1:0
+Return value: 
+Source file was:
+
+            #include <stdio.h>
+            #include <string.h>
+            int main(){return 0;}
+            __attribute__ ((__constructor__))
+            static void before_main(int argc, char* argv[], char* envp[])
+            {
+                printf("%d:%d",argc, strstr(argv[0],"cmTryCompileExec")?1:0);
+            }
+Performing C SOURCE FILE Test EC_HAVE_PROCFS succeded with the following compile output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd075/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fd075.dir/build.make CMakeFiles/cmTC_fd075.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd075.dir/test_EC_HAVE_PROCFS.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_PROCFS -fPIE   -o CMakeFiles/cmTC_fd075.dir/test_EC_HAVE_PROCFS.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckCSource/test_EC_HAVE_PROCFS.c
+Linking C executable cmTC_fd075
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd075.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_PROCFS    -rdynamic CMakeFiles/cmTC_fd075.dir/test_EC_HAVE_PROCFS.c.o  -o cmTC_fd075 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Performing C SOURCE FILE Run EC_HAVE_PROCFS succeded with the following run output:
+
+Return value: 
+Source file was:
+
+            #include <sys/types.h>
+            #include <dirent.h>
+            int main()
+            {
+                DIR* d = opendir("/proc");
+                if(d)
+                    return 0;
+                else
+                    return -1;
+            }
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eaa32/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_eaa32.dir/build.make CMakeFiles/cmTC_eaa32.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eaa32.dir/EC_HAVE_DLFCN_H.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_eaa32.dir/EC_HAVE_DLFCN_H.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckIncludeFiles/EC_HAVE_DLFCN_H.c
+Linking C executable cmTC_eaa32
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaa32.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_eaa32.dir/EC_HAVE_DLFCN_H.c.o  -o cmTC_eaa32 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test EC_HAVE_DLADDR succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9701c/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9701c.dir/build.make CMakeFiles/cmTC_9701c.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9701c.dir/src.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_DLADDR -fPIE   -o CMakeFiles/cmTC_9701c.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9701c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9701c.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_DLADDR    -rdynamic CMakeFiles/cmTC_9701c.dir/src.c.o  -o cmTC_9701c -ldl 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _GNU_SOURCE
+#include <dlfcn.h>
+int main(){ void* addr; Dl_info info; dladdr(addr, &info); }
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/bin/gfortran 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: /usr/bin/gfortran -v CMakeFortranCompilerId.F -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-18+deb9u1' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) 
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccmTsgNH.f90 -quiet -v -imultiarch x86_64-linux-gnu CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/6/finclude -o /tmp/cc5WW95o.s
+GNU Fortran (Debian 6.3.0-18+deb9u1) version 6.3.0 20170516 (x86_64-linux-gnu)
+	compiled by GNU C version 6.3.0 20170516, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version 0.15
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/6/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/6/finclude
+ /usr/lib/gcc/x86_64-linux-gnu/6/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU Fortran2008 (Debian 6.3.0-18+deb9u1) version 6.3.0 20170516 (x86_64-linux-gnu)
+	compiled by GNU C version 6.3.0 20170516, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version 0.15
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o /tmp/ccgwMks6.o /tmp/cc5WW95o.s
+GNU assembler version 2.28 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.28
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/6/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccT1NkPN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. /tmp/ccgwMks6.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/3.11.3/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f2dd/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6f2dd.dir/build.make CMakeFiles/cmTC_6f2dd.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_6f2dd.dir/testFortranCompiler.f.o
+/usr/bin/gfortran   -fPIE   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_6f2dd.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_6f2dd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f2dd.dir/link.txt --verbose=1
+/usr/bin/gfortran      CMakeFiles/cmTC_6f2dd.dir/testFortranCompiler.f.o  -o cmTC_6f2dd 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d3db/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6d3db.dir/build.make CMakeFiles/cmTC_6d3db.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_6d3db.dir/CMakeFortranCompilerABI.F.o
+/usr/bin/gfortran   -fPIE   -c /usr/local/share/cmake-3.11/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_6d3db.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTC_6d3db
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d3db.dir/link.txt --verbose=1
+/usr/bin/gfortran   -v   CMakeFiles/cmTC_6d3db.dir/CMakeFortranCompilerABI.F.o  -o cmTC_6d3db 
+Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_6d3db.dir/CMakeFortranCompilerABI.F.o -o cmTC_6d3db -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-18+deb9u1' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) 
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/6/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6d3db' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6d3db' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc13q4DZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6d3db /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_6d3db.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6d3db' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6d3db/fast"]
+  ignore line: [make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6d3db.dir/build.make CMakeFiles/cmTC_6d3db.dir/build]
+  ignore line: [make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_6d3db.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/bin/gfortran   -fPIE   -c /usr/local/share/cmake-3.11/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_6d3db.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTC_6d3db]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d3db.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gfortran   -v   CMakeFiles/cmTC_6d3db.dir/CMakeFortranCompilerABI.F.o  -o cmTC_6d3db ]
+  ignore line: [Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_6d3db.dir/CMakeFortranCompilerABI.F.o -o cmTC_6d3db -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-18+deb9u1' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) ]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/6/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6d3db' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6d3db' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc13q4DZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6d3db /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_6d3db.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc13q4DZ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6d3db] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
+    arg [CMakeFiles/cmTC_6d3db.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6] ==> [/usr/lib/gcc/x86_64-linux-gnu/6]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> [/usr/lib]
+  implicit libs: [gfortran;m;gcc_s;gcc;quadmath;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc24b/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bc24b.dir/build.make CMakeFiles/cmTC_bc24b.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_bc24b.dir/testFortranCompilerF90.f90.o
+/usr/bin/gfortran   -fPIE   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_bc24b.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_bc24b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc24b.dir/link.txt --verbose=1
+/usr/bin/gfortran      CMakeFiles/cmTC_bc24b.dir/testFortranCompilerF90.f90.o  -o cmTC_bc24b 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6b97d/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6b97d.dir/build.make CMakeFiles/cmTC_6b97d.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b97d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -pipe  -fPIE   -o CMakeFiles/cmTC_6b97d.dir/CheckIncludeFile.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6b97d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b97d.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe     -rdynamic CMakeFiles/cmTC_6b97d.dir/CheckIncludeFile.c.o  -o cmTC_6b97d 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb742/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_eb742.dir/build.make CMakeFiles/cmTC_eb742.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb742.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pipe -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_eb742.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eb742
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb742.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_eb742.dir/CheckFunctionExists.c.o  -o cmTC_eb742 -lpthread 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test C_FLAG_TEST_2 succeeded with the following output:
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eac08/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_eac08.dir/build.make CMakeFiles/cmTC_eac08.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eac08.dir/src.c.o
+/usr/bin/cc   -pipe -DC_FLAG_TEST_2 -fPIE   -pedantic -o CMakeFiles/cmTC_eac08.dir/src.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_eac08
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eac08.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DC_FLAG_TEST_2    -rdynamic CMakeFiles/cmTC_eac08.dir/src.c.o  -o cmTC_eac08 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }

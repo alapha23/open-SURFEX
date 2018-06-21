@@ -1,0 +1,292 @@
+ Log offline pour proc            0
+           1  
+           1 NBLOCKTOT            1
+           1 READ NAMELISTS    0.0000000000000000     
+           1  
+           1 TIME_NPIO_READ init_index    0.0000000000000000     
+           1 TIME_COMM_READ init_index    0.0000000000000000     
+           1  
+           1 INIT_INDEX_MPI    0.0000000000000000     
+           1  
+           1  
+           1 TIME_NPIO_READ forc conf    0.0000000000000000     
+           1 TIME_COMM_READ forc conf    0.0000000000000000     
+           1 OL_READ_ATM_CONF    0.0000000000000000     
+           1  
+           1 COMPARE_OROGRAPHY SUNPOS    0.0000000000000000     
+           1  
+           1 TIME_NPIO_READ forc    0.0000000000000000     
+           1 TIME_COMM_READ forc    0.0000000000000000     
+           1  
+           1 OL_READ_ATM0    0.0000000000000000     
+           1  
+           1 CO2 RHOA    0.0000000000000000     
+           1  
+           1 INIT_SURF_ATM    0.0000000000000000     
+           1  
+           1 TIME_NPIO_READ init    0.0000000000000000     
+           1 TIME_COMM_READ init    0.0000000000000000     
+           1  
+           1 INIT FINISHED    0.0000000000000000     
+           1 SFX DAY :           1         243
+           1 SFX DAY :           2         243
+           1 SFX DAY :           3         243
+           1 SFX DAY :           4         243
+           1 SFX DAY :           5         243
+           1 SFX DAY :           6         243
+           1 SFX DAY :           7         243
+           1 SFX DAY :           8         243
+           1 SFX DAY :           9         243
+           1 SFX DAY :          10         243
+           1 SFX DAY :          11         243
+           1 SFX DAY :          12         243
+           1 SFX DAY :          13         243
+           1 SFX DAY :          14         243
+           1 SFX DAY :          15         243
+           1 SFX DAY :          16         243
+           1 SFX DAY :          17         243
+           1 SFX DAY :          18         243
+           1 SFX DAY :          19         243
+           1 SFX DAY :          20         243
+           1 SFX DAY :          21         243
+           1 SFX DAY :          22         243
+           1 SFX DAY :          23         243
+           1 SFX DAY :          24         243
+           1 SFX DAY :          25         243
+           1 SFX DAY :          26         243
+           1 SFX DAY :          27         243
+           1 SFX DAY :          28         243
+           1 SFX DAY :          29         243
+           1 SFX DAY :          30         243
+           1 SFX DAY :          31         243
+           1 SFX DAY :          32         243
+           1 SFX DAY :          33         243
+           1 SFX DAY :          34         243
+           1 SFX DAY :          35         243
+           1 SFX DAY :          36         243
+           1 SFX DAY :          37         243
+           1 SFX DAY :          38         243
+           1 SFX DAY :          39         243
+           1 SFX DAY :          40         243
+           1 SFX DAY :          41         243
+           1 SFX DAY :          42         243
+           1 SFX DAY :          43         243
+           1 SFX DAY :          44         243
+           1 SFX DAY :          45         243
+           1 SFX DAY :          46         243
+           1 SFX DAY :          47         243
+           1 SFX DAY :          48         243
+           1 SFX DAY :          49         243
+           1 SFX DAY :          50         243
+           1 SFX DAY :          51         243
+           1 SFX DAY :          52         243
+           1 SFX DAY :          53         243
+           1 SFX DAY :          54         243
+           1 SFX DAY :          55         243
+           1 SFX DAY :          56         243
+           1 SFX DAY :          57         243
+           1 SFX DAY :          58         243
+           1 SFX DAY :          59         243
+           1 SFX DAY :          60         243
+           1 SFX DAY :          61         243
+           1 SFX DAY :          62         243
+           1 SFX DAY :          63         243
+           1 SFX DAY :          64         243
+           1 SFX DAY :          65         243
+           1 SFX DAY :          66         243
+           1 SFX DAY :          67         243
+           1 SFX DAY :          68         243
+           1 SFX DAY :          69         243
+           1 SFX DAY :          70         243
+           1 SFX DAY :          71         243
+           1 SFX DAY :          72         243
+           1 SFX DAY :          73         243
+           1 SFX DAY :          74         243
+           1 SFX DAY :          75         243
+           1 SFX DAY :          76         243
+           1 SFX DAY :          77         243
+           1 SFX DAY :          78         243
+           1 SFX DAY :          79         243
+           1 SFX DAY :          80         243
+           1 SFX DAY :          81         243
+           1 SFX DAY :          82         243
+           1 SFX DAY :          83         243
+           1 SFX DAY :          84         243
+           1 SFX DAY :          85         243
+           1 SFX DAY :          86         243
+           1 SFX DAY :          87         243
+           1 SFX DAY :          88         243
+           1 SFX DAY :          89         243
+           1 SFX DAY :          90         243
+           1 SFX DAY :          91         243
+           1 SFX DAY :          92         243
+           1 SFX DAY :          93         243
+           1 SFX DAY :          94         243
+           1 SFX DAY :          95         243
+           1 SFX DAY :          96         243
+           1 SFX DAY :          97         243
+           1 SFX DAY :          98         243
+           1 SFX DAY :          99         243
+           1 SFX DAY :         100         243
+           1 SFX DAY :         101         243
+           1 SFX DAY :         102         243
+           1 SFX DAY :         103         243
+           1 SFX DAY :         104         243
+           1 SFX DAY :         105         243
+           1 SFX DAY :         106         243
+           1 SFX DAY :         107         243
+           1 SFX DAY :         108         243
+           1 SFX DAY :         109         243
+           1 SFX DAY :         110         243
+           1 SFX DAY :         111         243
+           1 SFX DAY :         112         243
+           1 SFX DAY :         113         243
+           1 SFX DAY :         114         243
+           1 SFX DAY :         115         243
+           1 SFX DAY :         116         243
+           1 SFX DAY :         117         243
+           1 SFX DAY :         118         243
+           1 SFX DAY :         119         243
+           1 SFX DAY :         120         243
+           1 SFX DAY :         121         243
+           1 SFX DAY :         122         243
+           1 SFX DAY :         123         243
+           1 SFX DAY :         124         243
+           1 SFX DAY :         125         243
+           1 SFX DAY :         126         243
+           1 SFX DAY :         127         243
+           1 SFX DAY :         128         243
+           1 SFX DAY :         129         243
+           1 SFX DAY :         130         243
+           1 SFX DAY :         131         243
+           1 SFX DAY :         132         243
+           1 SFX DAY :         133         243
+           1 SFX DAY :         134         243
+           1 SFX DAY :         135         243
+           1 SFX DAY :         136         243
+           1 SFX DAY :         137         243
+           1 SFX DAY :         138         243
+           1 SFX DAY :         139         243
+           1 SFX DAY :         140         243
+           1 SFX DAY :         141         243
+           1 SFX DAY :         142         243
+           1 SFX DAY :         143         243
+           1 SFX DAY :         144         243
+           1 SFX DAY :         145         243
+           1 SFX DAY :         146         243
+           1 SFX DAY :         147         243
+           1 SFX DAY :         148         243
+           1 SFX DAY :         149         243
+           1 SFX DAY :         150         243
+           1 SFX DAY :         151         243
+           1 SFX DAY :         152         243
+           1 SFX DAY :         153         243
+           1 SFX DAY :         154         243
+           1 SFX DAY :         155         243
+           1 SFX DAY :         156         243
+           1 SFX DAY :         157         243
+           1 SFX DAY :         158         243
+           1 SFX DAY :         159         243
+           1 SFX DAY :         160         243
+           1 SFX DAY :         161         243
+           1 SFX DAY :         162         243
+           1 SFX DAY :         163         243
+           1 SFX DAY :         164         243
+           1 SFX DAY :         165         243
+           1 SFX DAY :         166         243
+           1 SFX DAY :         167         243
+           1 SFX DAY :         168         243
+           1 SFX DAY :         169         243
+           1 SFX DAY :         170         243
+           1 SFX DAY :         171         243
+           1 SFX DAY :         172         243
+           1 SFX DAY :         173         243
+           1 SFX DAY :         174         243
+           1 SFX DAY :         175         243
+           1 SFX DAY :         176         243
+           1 SFX DAY :         177         243
+           1 SFX DAY :         178         243
+           1 SFX DAY :         179         243
+           1 SFX DAY :         180         243
+           1 SFX DAY :         181         243
+           1 SFX DAY :         182         243
+           1 SFX DAY :         183         243
+           1 SFX DAY :         184         243
+           1 SFX DAY :         185         243
+           1 SFX DAY :         186         243
+           1 SFX DAY :         187         243
+           1 SFX DAY :         188         243
+           1 SFX DAY :         189         243
+           1 SFX DAY :         190         243
+           1 SFX DAY :         191         243
+           1 SFX DAY :         192         243
+           1 SFX DAY :         193         243
+           1 SFX DAY :         194         243
+           1 SFX DAY :         195         243
+           1 SFX DAY :         196         243
+           1 SFX DAY :         197         243
+           1 SFX DAY :         198         243
+           1 SFX DAY :         199         243
+           1 SFX DAY :         200         243
+           1 SFX DAY :         201         243
+           1 SFX DAY :         202         243
+           1 SFX DAY :         203         243
+           1 SFX DAY :         204         243
+           1 SFX DAY :         205         243
+           1 SFX DAY :         206         243
+           1 SFX DAY :         207         243
+           1 SFX DAY :         208         243
+           1 SFX DAY :         209         243
+           1 SFX DAY :         210         243
+           1 SFX DAY :         211         243
+           1 SFX DAY :         212         243
+           1 SFX DAY :         213         243
+           1 SFX DAY :         214         243
+           1 SFX DAY :         215         243
+           1 SFX DAY :         216         243
+           1 SFX DAY :         217         243
+           1 SFX DAY :         218         243
+           1 SFX DAY :         219         243
+           1 SFX DAY :         220         243
+           1 SFX DAY :         221         243
+           1 SFX DAY :         222         243
+           1 SFX DAY :         223         243
+           1 SFX DAY :         224         243
+           1 SFX DAY :         225         243
+           1 SFX DAY :         226         243
+           1 SFX DAY :         227         243
+           1 SFX DAY :         228         243
+           1 SFX DAY :         229         243
+           1 SFX DAY :         230         243
+           1 SFX DAY :         231         243
+           1 SFX DAY :         232         243
+           1 SFX DAY :         233         243
+           1 SFX DAY :         234         243
+           1 SFX DAY :         235         243
+           1 SFX DAY :         236         243
+           1 SFX DAY :         237         243
+           1 SFX DAY :         238         243
+           1 SFX DAY :         239         243
+           1 SFX DAY :         240         243
+           1 SFX DAY :         241         243
+           1 SFX DAY :         242         243
+           1 SFX DAY :         243         243
+           1  
+           1 OL_READ_ATM    0.0000000000000000     
+           1 SUNPOS    0.0000000000000000     
+           1 OL_TIME_INTERP_ATM    0.0000000000000000     
+           1 
+           1 ZENITH    0.0000000000000000     
+           1 
+           1 COUPLING_SURF_ATM    0.0000000000000000     
+           1 
+           1 ADD_FORECAST_TO_DATE_SURF    0.0000000000000000     
+           1 DEF_DATE    0.0000000000000000     
+           1 
+           1 WRITE_SURF_ATM    0.0000000000000000     
+           1 DIAG_SURF_ATM    0.0000000000000000     
+           1 WRITE_DIAG_SURF_ATM    0.0000000000000000     
+           1 
+           1 CLOSE FILES    0.0000000000000000     
+           1 
+ End log offline pour proc            0

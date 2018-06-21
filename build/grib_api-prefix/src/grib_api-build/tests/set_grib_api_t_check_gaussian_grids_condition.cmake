@@ -1,0 +1,5 @@
+  if(  GRIB_API_INSTALL_EXTRA_TOOLS )
+    set(_grib_api_t_check_gaussian_grids_condition TRUE)
+  else()
+    set(_grib_api_t_check_gaussian_grids_condition FALSE)
+  endif()

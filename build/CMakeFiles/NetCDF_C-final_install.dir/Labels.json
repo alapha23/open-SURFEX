@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/CMakeFiles/NetCDF_C-final_install"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/CMakeFiles/NetCDF_C-final_install.rule"
+		},
+		{
+			"file" : "/home/gao/Documents/open-SURFEX/build/NetCDF_C-prefix/src/NetCDF_C-stamp/NetCDF_C-final_install.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"NetCDF_C"
+		],
+		"name" : "NetCDF_C-final_install"
+	}
+}

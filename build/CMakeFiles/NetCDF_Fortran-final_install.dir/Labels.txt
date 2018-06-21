@@ -1,0 +1,6 @@
+# Target labels
+ NetCDF_Fortran
+# Source files and their labels
+/home/gao/Documents/open-SURFEX/build/CMakeFiles/NetCDF_Fortran-final_install
+/home/gao/Documents/open-SURFEX/build/CMakeFiles/NetCDF_Fortran-final_install.rule
+/home/gao/Documents/open-SURFEX/build/NetCDF_Fortran-prefix/src/NetCDF_Fortran-stamp/NetCDF_Fortran-final_install.rule

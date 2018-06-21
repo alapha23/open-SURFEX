@@ -1,0 +1,9 @@
+/home/gao/Documents/open-SURFEX/_install/bin/OI_MAIN
+/home/gao/Documents/open-SURFEX/_install/bin/SODA
+/home/gao/Documents/open-SURFEX/_install/bin/VARASSIM
+/home/gao/Documents/open-SURFEX/_install/bin/NCPOST
+/home/gao/Documents/open-SURFEX/_install/bin/OFFLINE
+/home/gao/Documents/open-SURFEX/_install/bin/PGD
+/home/gao/Documents/open-SURFEX/_install/bin/PREP
+/home/gao/Documents/open-SURFEX/_install/bin/SXPOST
+/home/gao/Documents/open-SURFEX/_install/bin/PRE_INPUT_EXPERIMENT

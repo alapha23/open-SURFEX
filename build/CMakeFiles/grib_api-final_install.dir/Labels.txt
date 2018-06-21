@@ -1,0 +1,6 @@
+# Target labels
+ grib_api
+# Source files and their labels
+/home/gao/Documents/open-SURFEX/build/CMakeFiles/grib_api-final_install
+/home/gao/Documents/open-SURFEX/build/CMakeFiles/grib_api-final_install.rule
+/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-stamp/grib_api-final_install.rule

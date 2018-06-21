@@ -1,0 +1,3 @@
+repository='external project URL'
+module='/home/gao/Documents/open-SURFEX/auxiliary/netcdf-fortran-4.4.4.tar.gz'
+tag=''

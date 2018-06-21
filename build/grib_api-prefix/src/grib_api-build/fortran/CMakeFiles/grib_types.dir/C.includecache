@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api/fortran/grib_fortran_kinds.c
+stddef.h
+-
+

@@ -1,0 +1,71 @@
+      SUMMARY OF THE HDF5 CONFIGURATION
+      =================================
+
+General Information:
+-------------------
+                   HDF5 Version: 1.8.19
+                  Configured on: 2018-06-21
+                  Configured by: Unix Makefiles
+                 Configure mode: CMAKE 3.11.3
+                    Host system: Linux-4.9.0-3-amd64
+              Uname information: Linux
+                       Byte sex: little-endian
+                      Libraries: 
+             Installation point: /home/gao/Documents/open-SURFEX/build/auxiliary
+
+Compiling Options:
+------------------
+               Compilation Mode: RELEASE
+                     C Compiler: /usr/bin/cc
+                         CFLAGS:   -std=c99 -fstdarg-opt -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wwrite-strings -Wconversion -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -Wno-unused-parameter -Wno-inline -Wno-aggregate-return -fmessage-length=0
+                      H5_CFLAGS: 
+                      AM_CFLAGS: 
+                       CPPFLAGS: 
+                    H5_CPPFLAGS: 
+                    AM_CPPFLAGS: 
+               Shared C Library: YES
+               Static C Library: YES
+  Statically Linked Executables: OFF
+                        LDFLAGS: 
+                     AM_LDFLAGS: 
+                Extra libraries: m;dl;/usr/lib/x86_64-linux-gnu/libz.so
+                       Archiver: /usr/bin/ar
+                         Ranlib: /usr/bin/ranlib
+              Debugged Packages: 
+                    API Tracing: OFF
+
+Languages:
+----------
+                        Fortran: OFF
+               Fortran Compiler: /usr/bin/gfortran
+          Fortran 2003 Compiler: 
+                  Fortran Flags: 
+               H5 Fortran Flags: 
+               AM Fortran Flags: 
+         Shared Fortran Library: YES
+         Static Fortran Library: YES
+
+                            C++: OFF
+                   C++ Compiler: /usr/bin/c++
+                      C++ Flags:   -fstdarg-opt -fmessage-length=0
+                   H5 C++ Flags: 
+                   AM C++ Flags: 
+             Shared C++ Library: YES
+             Static C++ Library: YES
+
+Features:
+---------
+                  Parallel HDF5: OFF
+             High Level library: ON
+                   Threadsafety: OFF
+            Default API Mapping: v18
+ With Deprecated Public Symbols: ON
+         I/O filters (external):  DEFLATE
+                            MPE: 
+                     Direct VFD: 
+                        dmalloc: 
+Clear file buffers before write: ON
+           Using memory checker: OFF
+         Function Stack Tracing: OFF
+      Strict File Format Checks: OFF
+   Optimization Instrumentation: 

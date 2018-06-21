@@ -1,0 +1,1158 @@
+2018-06-21T11:58:51 - grib_api - DEBUG - ---------------------------------------------------------
+2018-06-21T11:58:51 - grib_api - DEBUG - Environment:
+2018-06-21T11:58:51 - grib_api - DEBUG - ---------------------------------------------------------
+INTELOPENCLSDK=/opt/intel/opencl/SDK
+MAIL=/var/mail/root
+USER=root
+XDG_SEAT=seat0
+XDG_SESSION_TYPE=x11
+SSH_AGENT_PID=5580
+SHLVL=3
+HOME=/root
+OLDPWD=/home/gao/Documents/open-SURFEX/build
+DESKTOP_SESSION=default
+GTK_MODULES=gail:atk-bridge
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+MAKEFLAGS=
+COLORTERM=truecolor
+MAKE_TERMERR=/dev/pts/1
+QT_QPA_PLATFORMTHEME=qgnomeplatform
+LOGNAME=root
+JOURNAL_STREAM=8:660272
+_=/usr/local/bin/cmake
+WINDOWID=29362471
+DESKTOP_AUTOSTART_ID=103c26c1ac4ccd1c47152947795690926600000075060001
+PKG_CONFIG_PATH=/opt/intel/opencl:/opt/intel/opencl:
+USERNAME=gao
+XDG_SESSION_ID=37
+TERM=xterm-256color
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+WINDOWPATH=2
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+GDM_LANG=en_US.UTF-8
+SESSION_MANAGER=local/gao:@/tmp/.ICE-unix/7506,unix/gao:/tmp/.ICE-unix/7506
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+MAKELEVEL=3
+DISPLAY=:0
+XDG_CURRENT_DESKTOP=GNOME
+LANG=en_US.UTF-8
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+LS_COLORS=rs=0:di=01 34:ln=01 36:mh=00:pi=40 33:so=01 35:do=01 35:bd=40 33 01:cd=40 33 01:or=40 31 01:mi=00:su=37 41:sg=30 43:ca=30 41:tw=30 42:ow=34 42:st=37 44:ex=01 32:*.tar=01 31:*.tgz=01 31:*.arc=01 31:*.arj=01 31:*.taz=01 31:*.lha=01 31:*.lz4=01 31:*.lzh=01 31:*.lzma=01 31:*.tlz=01 31:*.txz=01 31:*.tzo=01 31:*.t7z=01 31:*.zip=01 31:*.z=01 31:*.Z=01 31:*.dz=01 31:*.gz=01 31:*.lrz=01 31:*.lz=01 31:*.lzo=01 31:*.xz=01 31:*.zst=01 31:*.tzst=01 31:*.bz2=01 31:*.bz=01 31:*.tbz=01 31:*.tbz2=01 31:*.tz=01 31:*.deb=01 31:*.rpm=01 31:*.jar=01 31:*.war=01 31:*.ear=01 31:*.sar=01 31:*.rar=01 31:*.alz=01 31:*.ace=01 31:*.zoo=01 31:*.cpio=01 31:*.7z=01 31:*.rz=01 31:*.cab=01 31:*.jpg=01 35:*.jpeg=01 35:*.mjpg=01 35:*.mjpeg=01 35:*.gif=01 35:*.bmp=01 35:*.pbm=01 35:*.pgm=01 35:*.ppm=01 35:*.tga=01 35:*.xbm=01 35:*.xpm=01 35:*.tif=01 35:*.tiff=01 35:*.png=01 35:*.svg=01 35:*.svgz=01 35:*.mng=01 35:*.pcx=01 35:*.mov=01 35:*.mpg=01 35:*.mpeg=01 35:*.m2v=01 35:*.mkv=01 35:*.webm=01 35:*.ogm=01 35:*.mp4=01 35:*.m4v=01 35:*.mp4v=01 35:*.vob=01 35:*.qt=01 35:*.nuv=01 35:*.wmv=01 35:*.asf=01 35:*.rm=01 35:*.rmvb=01 35:*.flc=01 35:*.avi=01 35:*.fli=01 35:*.flv=01 35:*.gl=01 35:*.dl=01 35:*.xcf=01 35:*.xwd=01 35:*.yuv=01 35:*.cgm=01 35:*.emf=01 35:*.ogv=01 35:*.ogx=01 35:*.aac=00 36:*.au=00 36:*.flac=00 36:*.m4a=00 36:*.mid=00 36:*.midi=00 36:*.mka=00 36:*.mp3=00 36:*.mpc=00 36:*.ogg=00 36:*.ra=00 36:*.wav=00 36:*.oga=00 36:*.opus=00 36:*.spx=00 36:*.xspf=00 36:
+XDG_SESSION_DESKTOP=default
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SHELL=/bin/bash
+GDMSESSION=default
+MAKE_TERMOUT=/dev/pts/1
+QT_ACCESSIBILITY=1
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+XDG_VTNR=2
+PWD=/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build
+XDG_DATA_DIRS=/usr/share/gnome:/usr/share/gnome:/usr/local/share/:/usr/share/
+MFLAGS=-s
+VTE_VERSION=4601
+CC=/usr/bin/cc
+
+2018-06-21T11:58:51 - grib_api - DEBUG - ---------------------------------------------------------
+2018-06-21T11:58:51 - grib_api - INFO - ecbuild   2.7.1	/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api/cmake
+2018-06-21T11:58:51 - grib_api - INFO - cmake     3.11.3	/usr/local/bin/cmake
+2018-06-21T11:58:51 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T11:58:51 - grib_api - DEBUG - ecbuild_compiler_flags(C): try include /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api/cmake/compiler_flags/GNU_C.cmake 
+2018-06-21T11:58:51 - grib_api - DEBUG - CMAKE_C_FLAGS : 
+2018-06-21T11:58:51 - grib_api - DEBUG - CMAKE_C_FLAGS_NONE : 
+2018-06-21T11:58:51 - grib_api - DEBUG - CMAKE_C_FLAGS_DEBUG : -O0 -g
+2018-06-21T11:58:51 - grib_api - DEBUG - CMAKE_C_FLAGS_BIT : -g -O2 -m64 -march=native -DNDEBUG
+2018-06-21T11:58:51 - grib_api - DEBUG - CMAKE_C_FLAGS_PRODUCTION : -O2 -g
+2018-06-21T11:58:51 - grib_api - DEBUG - CMAKE_C_FLAGS_RELEASE : -O3 -DNDEBUG
+2018-06-21T11:58:51 - grib_api - DEBUG - CMAKE_C_FLAGS_RELWITHDEBINFO : -O2 -g
+2018-06-21T11:58:51 - grib_api - DEBUG - C FLAG [-pipe] added
+2018-06-21T11:58:52 - grib_api - DEBUG - sizeof void*       [8]
+2018-06-21T11:58:52 - grib_api - DEBUG - sizeof char        [1]
+2018-06-21T11:58:52 - grib_api - DEBUG - sizeof short       [2]
+2018-06-21T11:58:52 - grib_api - DEBUG - sizeof int         [4]
+2018-06-21T11:58:52 - grib_api - DEBUG - sizeof long        [8]
+2018-06-21T11:58:52 - grib_api - DEBUG - sizeof long long   [8]
+2018-06-21T11:58:52 - grib_api - DEBUG - sizeof float       [4]
+2018-06-21T11:58:52 - grib_api - DEBUG - sizeof double      [8]
+2018-06-21T11:58:52 - grib_api - DEBUG - sizeof long double [16]
+2018-06-21T11:58:52 - grib_api - DEBUG - sizeof size_t      [8]
+2018-06-21T11:58:52 - grib_api - DEBUG - sizeof ssize_t     [8]
+2018-06-21T11:58:52 - grib_api - DEBUG - sizeof off_t       [8]
+2018-06-21T11:58:55 - grib_api - DEBUG - Performing Test EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_try_run: Compiling /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckCSource/test_EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV.c in /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_try_run: compilation output 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d75a/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8d75a.dir/build.make CMakeFiles/cmTC_8d75a.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d75a.dir/test_EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV.c.o
+/usr/bin/cc   -pipe -DEC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV -fPIE   -o CMakeFiles/cmTC_8d75a.dir/test_EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckCSource/test_EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV.c
+Linking C executable cmTC_8d75a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d75a.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV    -rdynamic CMakeFiles/cmTC_8d75a.dir/test_EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV.c.o  -o cmTC_8d75a 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_try_run: Running /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckCSource/test_EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV.c.bin in /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_try_run: run output 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+1:0 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2018-06-21T11:58:55 - grib_api - DEBUG - EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV_EXITCODE : 0
+2018-06-21T11:58:55 - grib_api - DEBUG - EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV_COMPILED : TRUE
+2018-06-21T11:58:55 - grib_api - DEBUG - compile_OUTPUT : Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d75a/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8d75a.dir/build.make CMakeFiles/cmTC_8d75a.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d75a.dir/test_EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV.c.o
+/usr/bin/cc   -pipe -DEC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV -fPIE   -o CMakeFiles/cmTC_8d75a.dir/test_EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckCSource/test_EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV.c
+Linking C executable cmTC_8d75a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d75a.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV    -rdynamic CMakeFiles/cmTC_8d75a.dir/test_EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV.c.o  -o cmTC_8d75a 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+2018-06-21T11:58:55 - grib_api - DEBUG - run_OUTPUT : 1:0
+2018-06-21T11:58:55 - grib_api - DEBUG - Performing Test EC_ATTRIBUTE_CONSTRUCTOR_INITS_ARGV - Success
+2018-06-21T11:58:55 - grib_api - DEBUG - Performing Test EC_HAVE_PROCFS
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_try_run: Compiling /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckCSource/test_EC_HAVE_PROCFS.c in /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_try_run: compilation output 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd075/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fd075.dir/build.make CMakeFiles/cmTC_fd075.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd075.dir/test_EC_HAVE_PROCFS.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_PROCFS -fPIE   -o CMakeFiles/cmTC_fd075.dir/test_EC_HAVE_PROCFS.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckCSource/test_EC_HAVE_PROCFS.c
+Linking C executable cmTC_fd075
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd075.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_PROCFS    -rdynamic CMakeFiles/cmTC_fd075.dir/test_EC_HAVE_PROCFS.c.o  -o cmTC_fd075 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_try_run: Running /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckCSource/test_EC_HAVE_PROCFS.c.bin in /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build
+2018-06-21T11:58:55 - grib_api - DEBUG - EC_HAVE_PROCFS_EXITCODE : 0
+2018-06-21T11:58:55 - grib_api - DEBUG - EC_HAVE_PROCFS_COMPILED : TRUE
+2018-06-21T11:58:55 - grib_api - DEBUG - compile_OUTPUT : Change Dir: /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd075/fast"
+make[3]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fd075.dir/build.make CMakeFiles/cmTC_fd075.dir/build
+make[4]: Entering directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd075.dir/test_EC_HAVE_PROCFS.c.o
+/usr/bin/cc   -pipe -DEC_HAVE_PROCFS -fPIE   -o CMakeFiles/cmTC_fd075.dir/test_EC_HAVE_PROCFS.c.o   -c /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CheckCSource/test_EC_HAVE_PROCFS.c
+Linking C executable cmTC_fd075
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd075.dir/link.txt --verbose=1
+/usr/bin/cc  -pipe -DEC_HAVE_PROCFS    -rdynamic CMakeFiles/cmTC_fd075.dir/test_EC_HAVE_PROCFS.c.o  -o cmTC_fd075 
+make[4]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/CMakeFiles/CMakeTmp'
+
+2018-06-21T11:58:55 - grib_api - DEBUG - run_OUTPUT : 
+2018-06-21T11:58:55 - grib_api - DEBUG - Performing Test EC_HAVE_PROCFS - Success
+2018-06-21T11:58:55 - grib_api - DEBUG - Relative RPATHS are enabled
+2018-06-21T11:58:55 - grib_api - DEBUG - Building with install RPATH
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(TESTS): defaults to ON
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(TESTS): ENABLE_TESTS=OFF was found in cache
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(TESTS): defining option ENABLE_TESTS 'Enable the unit tests' ON
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(TESTS): ENABLE_TESTS=OFF
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(TESTS): feature disabled
+2018-06-21T11:58:55 - grib_api - INFO - Tests have been disabled
+2018-06-21T11:58:55 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T11:58:55 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T11:58:55 - grib_api - INFO - [grib_api] (1.23.0)
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(EXAMPLES): defaults to ON
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(EXAMPLES): ENABLE_EXAMPLES=OFF was found in cache
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(EXAMPLES): defining option ENABLE_EXAMPLES 'Build the examples' ON
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(EXAMPLES): ENABLE_EXAMPLES=OFF
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(EXAMPLES): feature disabled
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(JPG): defaults to ON
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(JPG): ENABLE_JPG not found in cache
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(JPG): defining option ENABLE_JPG 'support for JPG decoding/encoding' ON
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(JPG): ENABLE_JPG=ON
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(JPG): feature enabled
+2018-06-21T11:58:55 - grib_api - INFO - Feature JPG enabled
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(PNG): defaults to OFF
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(PNG): ENABLE_PNG not found in cache
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(PNG): defining option ENABLE_PNG 'support for PNG decoding/encoding' OFF
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(PNG): ENABLE_PNG=OFF
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(PNG): feature disabled
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(NETCDF): defaults to ON
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(NETCDF): ENABLE_NETCDF=OFF was found in cache
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(NETCDF): defining option ENABLE_NETCDF 'support for GRIB to NetCDF conversion' ON
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(NETCDF): ENABLE_NETCDF=OFF
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(NETCDF): feature disabled
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(AEC): defaults to OFF
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(AEC): ENABLE_AEC not found in cache
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(AEC): defining option ENABLE_AEC 'support for Adaptive Entropy Coding' OFF
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(AEC): ENABLE_AEC=OFF
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(AEC): feature disabled
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(PYTHON): defaults to ON
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(PYTHON): ENABLE_PYTHON=OFF was found in cache
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(PYTHON): defining option ENABLE_PYTHON 'build the GRIB_API Python interface' ON
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(PYTHON): ENABLE_PYTHON=OFF
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(PYTHON): feature disabled
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(FORTRAN): defaults to ON
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(FORTRAN): ENABLE_FORTRAN=ON was found in cache
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(FORTRAN): defining option ENABLE_FORTRAN 'build the GRIB_API Fortran interface' ON
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(FORTRAN): ENABLE_FORTRAN=ON
+2018-06-21T11:58:55 - grib_api - DEBUG - ecbuild_add_option(FORTRAN): feature enabled
+2018-06-21T11:58:55 - grib_api - INFO - Feature FORTRAN enabled
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_compiler_flags(Fortran): try include /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api/cmake/compiler_flags/GNU_Fortran.cmake 
+2018-06-21T11:58:56 - grib_api - DEBUG - CMAKE_Fortran_FLAGS : 
+2018-06-21T11:58:56 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_NONE : 
+2018-06-21T11:58:56 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_DEBUG : -O0 -g -fcheck=bounds -fbacktrace -finit-real=snan
+2018-06-21T11:58:56 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_BIT : -g -O2 -m64 -march=native -DNDEBUG -fno-range-check -fconvert=big-endian
+2018-06-21T11:58:56 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_PRODUCTION : -O2 -g
+2018-06-21T11:58:56 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_RELEASE : -O3 -funroll-all-loops -finline-functions
+2018-06-21T11:58:56 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_RELWITHDEBINFO : -O2 -g
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(MEMORY_MANAGEMENT): defaults to OFF
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(MEMORY_MANAGEMENT): ENABLE_MEMORY_MANAGEMENT not found in cache
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(MEMORY_MANAGEMENT): defining option ENABLE_MEMORY_MANAGEMENT 'enable memory management' OFF
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(MEMORY_MANAGEMENT): ENABLE_MEMORY_MANAGEMENT=OFF
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(MEMORY_MANAGEMENT): feature disabled
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(ALIGN_MEMORY): defaults to OFF
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(ALIGN_MEMORY): ENABLE_ALIGN_MEMORY not found in cache
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(ALIGN_MEMORY): defining option ENABLE_ALIGN_MEMORY 'enable memory alignment' OFF
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(ALIGN_MEMORY): ENABLE_ALIGN_MEMORY=OFF
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(ALIGN_MEMORY): feature disabled
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_TIMER): defaults to OFF
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_TIMER): ENABLE_GRIB_TIMER not found in cache
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_TIMER): defining option ENABLE_GRIB_TIMER 'enable timer' OFF
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_TIMER): ENABLE_GRIB_TIMER=OFF
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_TIMER): feature disabled
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_THREADS): defaults to OFF
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_THREADS): ENABLE_GRIB_THREADS not found in cache
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_THREADS): defining option ENABLE_GRIB_THREADS 'enable POSIX threads' OFF
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_THREADS): ENABLE_GRIB_THREADS=OFF
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_THREADS): feature disabled
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_OMP_THREADS): defaults to OFF
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_OMP_THREADS): ENABLE_GRIB_OMP_THREADS not found in cache
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_OMP_THREADS): defining option ENABLE_GRIB_OMP_THREADS 'enable OMP threads' OFF
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_OMP_THREADS): ENABLE_GRIB_OMP_THREADS=OFF
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_OMP_THREADS): feature disabled
+2018-06-21T11:58:56 - grib_api - DEPRECATION -  ecbuild_add_extra_search_paths modifies CMAKE_PREFIX_PATH, which can affect future package discovery if not undone by the caller. The current CMAKE_PREFIX_PATH is being backed up as _CMAKE_PREFIX_PATH so it can later be restored.
+2018-06-21T11:58:56 - grib_api - DEPRECATION -  ecbuild_list_extra_search_paths should no longer be used and is going to be removed in a future version of ecBuild.
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_list_extra_search_paths(jasper): setting CMAKE_PREFIX_PATH to 
+2018-06-21T11:58:56 - grib_api - INFO -  CMAKE_THREAD_LIBS_INIT=-lpthread
+2018-06-21T11:58:56 - grib_api - INFO -  CMAKE_USE_PTHREADS_INIT=1
+2018-06-21T11:58:56 - grib_api - INFO -  GRIB_THREADS=, HAVE_GRIB_THREADS=0
+2018-06-21T11:58:56 - grib_api - INFO -  GRIB_PTHREADS=0
+2018-06-21T11:58:56 - grib_api - INFO -  GRIB_OMP_THREADS=0
+2018-06-21T11:58:56 - grib_api - DEBUG - C FLAG [-pedantic] added
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_library(grib_api): removing grib_bits_fast_big_endian.c grib_bits_any_endian.c grib_bits_fast_big_endian_vector.c grib_bits_any_endian_vector.c grib_bits_fast_big_endian_simple.c grib_bits_any_endian_simple.c grib_bits_fast_big_endian_omp.c grib_bits_any_endian_omp.c encode_double_array.c grib_bits_ibmpow.c grib_bits_ibmpow_opt.c minmax_val.c /usr/lib/x86_64-linux-gnu/libm.so from sources
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_library(grib_api): linking with /usr/lib/x86_64-linux-gnu/libm.so
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_library(grib_api): linking with -lpthread
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_library(grib_api): mark as generated grib_api_version.c
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_library(grib_api): installing to lib
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_library(grib_tools): library type is STATIC
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_library(grib_tools): linking with grib_api
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_keys): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_keys): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_histogram): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_histogram): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_error): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_error): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_add): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_add): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(big2gribex): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(big2gribex): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_debug): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_debug): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_info): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_info): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_filter): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_filter): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_ls): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_ls): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_dump): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_dump): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib2ppm): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib2ppm): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_set): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_set): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_get): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_get): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_get_data): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_get_data): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_copy): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_copy): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_repair): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_repair): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_packing): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_packing): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_cmp): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_cmp): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_convert): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_convert): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_distance): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_distance): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_corruption_check): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_corruption_check): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_compare): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_compare): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_parser): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_parser): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_count): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_count): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_index_build): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_index_build): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(gg_sub_area_check): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(gg_sub_area_check): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_moments): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_moments): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_to_json): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_to_json): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_list_keys): linking with grib_tools
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_list_keys): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_types): not installing
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_library(grib_api_f77): linking with grib_api
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_library(grib_api_f77): installing to lib
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_library(grib_api_f90): linking with grib_api
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_library(grib_api_f90): mark as generated grib_f90.f90
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_library(grib_api_f90): installing to lib
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(read_any): linking with grib_api
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(read_any): not installing
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(julian): linking with grib_api
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(julian): not installing
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(index): linking with grib_api
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(index): not installing
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(multi_from_message): linking with grib_api
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(multi_from_message): not installing
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(read_index): linking with grib_api
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(read_index): not installing
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(unit_tests): linking with grib_api
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(unit_tests): not installing
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(gauss_sub): linking with grib_api
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(gauss_sub): not installing
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_util_set_spec): linking with grib_api
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(grib_util_set_spec): not installing
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_check): linking with grib_api
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_check): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_name): linking with grib_api
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_name): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_accumulations): linking with grib_api
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_accumulations): installing to bin
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_split): linking with grib_api
+2018-06-21T11:58:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_split): installing to bin
+2018-06-21T11:58:57 - grib_api - INFO - pkg-config file created: grib_api.pc
+2018-06-21T11:58:57 - grib_api - INFO - pkg-config file created: grib_api_f90.pc
+2018-06-21T11:58:57 - grib_api - INFO - pkg-config file created: grib_api_f77.pc
+2018-06-21T11:58:58 - grib_api - INFO - GRIB_API_TPLS: CMath
+2018-06-21T11:58:58 - grib_api - DEBUG - Found /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api/grib_api-import.cmake.in - configuring to /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/grib_api-import.cmake
+2018-06-21T11:58:58 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T11:58:58 - grib_api - INFO - Project grib_api summary
+2018-06-21T11:58:58 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T11:58:58 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T11:58:58 - grib_api - INFO - Build summary
+2018-06-21T11:58:58 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T11:58:58 - grib_api - INFO - system : [gao] [Linux-4.9.0-3-amd64] [linux.64]
+2018-06-21T11:58:58 - grib_api - INFO - processor        : [x86_64]
+2018-06-21T11:58:58 - grib_api - INFO - endiness         : Little Endian -- IEEE [1]
+2018-06-21T11:58:58 - grib_api - INFO - build type       : [Release]
+2018-06-21T11:58:58 - grib_api - INFO - timestamp        : [20180621115855]
+2018-06-21T11:58:58 - grib_api - INFO - install prefix   : [/home/gao/Documents/open-SURFEX/build/auxiliary]
+2018-06-21T11:58:58 - grib_api - INFO -   bin dir        : [/home/gao/Documents/open-SURFEX/build/auxiliary/bin]
+2018-06-21T11:58:58 - grib_api - INFO -   lib dir        : [/home/gao/Documents/open-SURFEX/build/auxiliary/lib]
+2018-06-21T11:58:58 - grib_api - INFO -   include dir    : [/home/gao/Documents/open-SURFEX/build/auxiliary/include]
+2018-06-21T11:58:58 - grib_api - INFO -   data dir       : [/home/gao/Documents/open-SURFEX/build/auxiliary/share/grib_api]
+2018-06-21T11:58:58 - grib_api - INFO -   cmake dir      : [/home/gao/Documents/open-SURFEX/build/auxiliary/share/grib_api/cmake]
+2018-06-21T11:58:58 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T11:58:58 - grib_api - INFO - C -- GNU 6.3.0
+2018-06-21T11:58:58 - grib_api - INFO -     compiler   : /usr/bin/cc
+2018-06-21T11:58:58 - grib_api - INFO -     flags      :  -pipe -pedantic -O3 -DNDEBUG  
+2018-06-21T11:58:58 - grib_api - INFO -     link flags : 
+2018-06-21T11:58:58 - grib_api - INFO - Fortran -- GNU 6.3.0
+2018-06-21T11:58:58 - grib_api - INFO -     compiler   : /usr/bin/gfortran
+2018-06-21T11:58:58 - grib_api - INFO -     flags      :  -O3 -funroll-all-loops -finline-functions  
+2018-06-21T11:58:58 - grib_api - INFO -     link flags : 
+2018-06-21T11:58:58 - grib_api - INFO - linker : /usr/bin/ld
+2018-06-21T11:58:58 - grib_api - INFO - ar     : /usr/bin/ar
+2018-06-21T11:58:58 - grib_api - INFO - ranlib : /usr/bin/ranlib
+2018-06-21T11:58:58 - grib_api - INFO - link flags
+2018-06-21T11:58:58 - grib_api - INFO -     executable [    -Wl,--disable-new-dtags ]
+2018-06-21T11:58:58 - grib_api - INFO -     shared lib [ -Wl,--disable-new-dtags ]
+2018-06-21T11:58:58 - grib_api - INFO -     static lib [ -Wl,--disable-new-dtags ]
+2018-06-21T11:58:58 - grib_api - INFO - install rpath  : $ORIGIN/../lib
+2018-06-21T11:58:58 - grib_api - INFO - common definitions: HAVE_GRIB_API_CONFIG_H
+2018-06-21T11:58:58 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T11:58:58 - grib_api - INFO - Feature summary
+2018-06-21T11:58:58 - grib_api - INFO - ---------------------------------------------------------
+The following features have been enabled:
+
+ * JPG, grib_api: support for JPG decoding/encoding
+ * FORTRAN, grib_api: build the GRIB_API Fortran interface
+
+-- The following OPTIONAL packages have been found:
+
+ * Git
+ * CMath
+ * JPEG
+
+-- The following REQUIRED packages have been found:
+
+ * Threads
+
+-- The following features have been disabled:
+
+ * TESTS, grib_api: Enable the unit tests
+ * EXAMPLES, grib_api: Build the examples
+ * PNG, grib_api: support for PNG decoding/encoding
+ * NETCDF, grib_api: support for GRIB to NetCDF conversion
+ * AEC, grib_api: support for Adaptive Entropy Coding
+ * PYTHON, grib_api: build the GRIB_API Python interface
+ * MEMORY_MANAGEMENT, grib_api: enable memory management
+ * ALIGN_MEMORY, grib_api: enable memory alignment
+ * GRIB_TIMER, grib_api: enable timer
+ * GRIB_THREADS, grib_api: enable POSIX threads
+ * GRIB_OMP_THREADS, grib_api: enable OMP threads
+
+-- The following OPTIONAL packages have not been found:
+
+ * Jasper
+ * OpenJPEG
+2018-06-21T11:58:58 - grib_api - INFO - 
+2018-06-21T11:58:58 - grib_api - INFO -    +---------------------------+
+2018-06-21T11:58:58 - grib_api - INFO -    |  GRIB API version 1.23.0  |
+2018-06-21T11:58:58 - grib_api - INFO -    +---------------------------+
+2018-06-21T11:58:58 - grib_api - INFO - 
+2018-06-21T11:58:58 - grib_api - INFO -    +------------------+ 
+2018-06-21T11:58:58 - grib_api - INFO -    | IMPORTANT NOTICE | 
+2018-06-21T11:58:58 - grib_api - INFO -    +---------------------------------------------------------------------------------------------+ 
+2018-06-21T11:58:58 - grib_api - INFO -    | Please note that 'ecCodes' is now the primary GRIB encoding/decoding package used at ECMWF. | 
+2018-06-21T11:58:58 - grib_api - INFO -    | Replacing GRIB API with ecCodes is expected to be transparent for current GRIB API users.   | 
+2018-06-21T11:58:58 - grib_api - INFO -    | In particular the functions with the 'grib_' prefix are included in the ecCodes library.    | 
+2018-06-21T11:58:58 - grib_api - INFO -    |                                                                                             | 
+2018-06-21T11:58:58 - grib_api - INFO -    | You are strongly advised to start the migration process.                                    | 
+2018-06-21T11:58:58 - grib_api - INFO -    |                                                                                             | 
+2018-06-21T11:58:58 - grib_api - INFO -    | For more details, please see:                                                               | 
+2018-06-21T11:58:58 - grib_api - INFO -    |   https://software.ecmwf.int/wiki/display/ECC/ecCodes+Home                                  | 
+2018-06-21T11:58:58 - grib_api - INFO -    +---------------------------------------------------------------------------------------------+ 
+2018-06-21T11:58:58 - grib_api - INFO - 
+2018-06-21T12:08:02 - grib_api - DEBUG - ---------------------------------------------------------
+2018-06-21T12:08:02 - grib_api - DEBUG - Environment:
+2018-06-21T12:08:02 - grib_api - DEBUG - ---------------------------------------------------------
+DESKTOP_SESSION=default
+XDG_SESSION_TYPE=x11
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+GDMSESSION=default
+SHELL=/bin/bash
+GDM_LANG=en_US.UTF-8
+VTE_VERSION=4601
+JOURNAL_STREAM=8:660272
+USERNAME=gao
+XDG_DATA_DIRS=/usr/share/gnome:/usr/share/gnome:/usr/local/share/:/usr/share/
+_=/usr/local/bin/cmake
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+SESSION_MANAGER=local/gao:@/tmp/.ICE-unix/7506,unix/gao:/tmp/.ICE-unix/7506
+XDG_RUNTIME_DIR=/run/user/1000
+WINDOWID=29362471
+XDG_MENU_PREFIX=gnome-
+LS_COLORS=rs=0:di=01 34:ln=01 36:mh=00:pi=40 33:so=01 35:do=01 35:bd=40 33 01:cd=40 33 01:or=40 31 01:mi=00:su=37 41:sg=30 43:ca=30 41:tw=30 42:ow=34 42:st=37 44:ex=01 32:*.tar=01 31:*.tgz=01 31:*.arc=01 31:*.arj=01 31:*.taz=01 31:*.lha=01 31:*.lz4=01 31:*.lzh=01 31:*.lzma=01 31:*.tlz=01 31:*.txz=01 31:*.tzo=01 31:*.t7z=01 31:*.zip=01 31:*.z=01 31:*.Z=01 31:*.dz=01 31:*.gz=01 31:*.lrz=01 31:*.lz=01 31:*.lzo=01 31:*.xz=01 31:*.zst=01 31:*.tzst=01 31:*.bz2=01 31:*.bz=01 31:*.tbz=01 31:*.tbz2=01 31:*.tz=01 31:*.deb=01 31:*.rpm=01 31:*.jar=01 31:*.war=01 31:*.ear=01 31:*.sar=01 31:*.rar=01 31:*.alz=01 31:*.ace=01 31:*.zoo=01 31:*.cpio=01 31:*.7z=01 31:*.rz=01 31:*.cab=01 31:*.jpg=01 35:*.jpeg=01 35:*.mjpg=01 35:*.mjpeg=01 35:*.gif=01 35:*.bmp=01 35:*.pbm=01 35:*.pgm=01 35:*.ppm=01 35:*.tga=01 35:*.xbm=01 35:*.xpm=01 35:*.tif=01 35:*.tiff=01 35:*.png=01 35:*.svg=01 35:*.svgz=01 35:*.mng=01 35:*.pcx=01 35:*.mov=01 35:*.mpg=01 35:*.mpeg=01 35:*.m2v=01 35:*.mkv=01 35:*.webm=01 35:*.ogm=01 35:*.mp4=01 35:*.m4v=01 35:*.mp4v=01 35:*.vob=01 35:*.qt=01 35:*.nuv=01 35:*.wmv=01 35:*.asf=01 35:*.rm=01 35:*.rmvb=01 35:*.flc=01 35:*.avi=01 35:*.fli=01 35:*.flv=01 35:*.gl=01 35:*.dl=01 35:*.xcf=01 35:*.xwd=01 35:*.yuv=01 35:*.cgm=01 35:*.emf=01 35:*.ogv=01 35:*.ogx=01 35:*.aac=00 36:*.au=00 36:*.flac=00 36:*.m4a=00 36:*.mid=00 36:*.midi=00 36:*.mka=00 36:*.mp3=00 36:*.mpc=00 36:*.ogg=00 36:*.ra=00 36:*.wav=00 36:*.oga=00 36:*.opus=00 36:*.spx=00 36:*.xspf=00 36:
+XDG_SESSION_DESKTOP=default
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+DISPLAY=:0
+HOME=/root
+PWD=/home/gao/Documents/open-SURFEX/build
+QT_QPA_PLATFORMTHEME=qgnomeplatform
+XDG_SEAT=seat0
+SSH_AGENT_PID=5580
+PKG_CONFIG_PATH=/opt/intel/opencl:/opt/intel/opencl:
+GTK_MODULES=gail:atk-bridge
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+LOGNAME=root
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+XDG_VTNR=2
+COLORTERM=truecolor
+SHLVL=3
+XDG_SESSION_ID=37
+USER=root
+XDG_CURRENT_DESKTOP=GNOME
+OLDPWD=/home/gao/Documents/open-SURFEX
+MAKEFLAGS=
+MFLAGS=-s
+MAIL=/var/mail/root
+MAKE_TERMOUT=/dev/pts/1
+QT_ACCESSIBILITY=1
+DESKTOP_AUTOSTART_ID=103c26c1ac4ccd1c47152947795690926600000075060001
+WINDOWPATH=2
+MAKE_TERMERR=/dev/pts/1
+LANG=en_US.UTF-8
+TERM=xterm-256color
+INTELOPENCLSDK=/opt/intel/opencl/SDK
+MAKELEVEL=5
+
+2018-06-21T12:08:02 - grib_api - DEBUG - ---------------------------------------------------------
+2018-06-21T12:08:02 - grib_api - INFO - ecbuild   2.7.1	/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api/cmake
+2018-06-21T12:08:02 - grib_api - INFO - cmake     3.11.3	/usr/local/bin/cmake
+2018-06-21T12:08:02 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_compiler_flags(C): try include /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api/cmake/compiler_flags/GNU_C.cmake 
+2018-06-21T12:08:03 - grib_api - DEBUG - CMAKE_C_FLAGS : 
+2018-06-21T12:08:03 - grib_api - DEBUG - CMAKE_C_FLAGS_NONE : 
+2018-06-21T12:08:03 - grib_api - DEBUG - CMAKE_C_FLAGS_DEBUG : -O0 -g
+2018-06-21T12:08:03 - grib_api - DEBUG - CMAKE_C_FLAGS_BIT : -g -O2 -m64 -march=native -DNDEBUG
+2018-06-21T12:08:03 - grib_api - DEBUG - CMAKE_C_FLAGS_PRODUCTION : -O2 -g
+2018-06-21T12:08:03 - grib_api - DEBUG - CMAKE_C_FLAGS_RELEASE : -O3 -DNDEBUG
+2018-06-21T12:08:03 - grib_api - DEBUG - CMAKE_C_FLAGS_RELWITHDEBINFO : -O2 -g
+2018-06-21T12:08:03 - grib_api - DEBUG - C FLAG [-pipe] added
+2018-06-21T12:08:03 - grib_api - DEBUG - sizeof void*       [8]
+2018-06-21T12:08:03 - grib_api - DEBUG - sizeof char        [1]
+2018-06-21T12:08:03 - grib_api - DEBUG - sizeof short       [2]
+2018-06-21T12:08:03 - grib_api - DEBUG - sizeof int         [4]
+2018-06-21T12:08:03 - grib_api - DEBUG - sizeof long        [8]
+2018-06-21T12:08:03 - grib_api - DEBUG - sizeof long long   [8]
+2018-06-21T12:08:03 - grib_api - DEBUG - sizeof float       [4]
+2018-06-21T12:08:03 - grib_api - DEBUG - sizeof double      [8]
+2018-06-21T12:08:03 - grib_api - DEBUG - sizeof long double [16]
+2018-06-21T12:08:03 - grib_api - DEBUG - sizeof size_t      [8]
+2018-06-21T12:08:03 - grib_api - DEBUG - sizeof ssize_t     [8]
+2018-06-21T12:08:03 - grib_api - DEBUG - sizeof off_t       [8]
+2018-06-21T12:08:03 - grib_api - DEBUG - Relative RPATHS are enabled
+2018-06-21T12:08:03 - grib_api - DEBUG - Building with install RPATH
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(TESTS): defaults to ON
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(TESTS): ENABLE_TESTS=OFF was found in cache
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(TESTS): defining option ENABLE_TESTS 'Enable the unit tests' ON
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(TESTS): ENABLE_TESTS=OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(TESTS): feature disabled
+2018-06-21T12:08:03 - grib_api - INFO - Tests have been disabled
+2018-06-21T12:08:03 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:03 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:03 - grib_api - INFO - [grib_api] (1.23.0)
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(EXAMPLES): defaults to ON
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(EXAMPLES): ENABLE_EXAMPLES=OFF was found in cache
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(EXAMPLES): defining option ENABLE_EXAMPLES 'Build the examples' ON
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(EXAMPLES): ENABLE_EXAMPLES=OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(EXAMPLES): feature disabled
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(JPG): defaults to ON
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(JPG): ENABLE_JPG=ON was found in cache
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(JPG): defining option ENABLE_JPG 'support for JPG decoding/encoding' ON
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(JPG): ENABLE_JPG=ON
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(JPG): feature enabled
+2018-06-21T12:08:03 - grib_api - INFO - Feature JPG enabled
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(PNG): defaults to OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(PNG): ENABLE_PNG=OFF was found in cache
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(PNG): defining option ENABLE_PNG 'support for PNG decoding/encoding' OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(PNG): ENABLE_PNG=OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(PNG): feature disabled
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(NETCDF): defaults to ON
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(NETCDF): ENABLE_NETCDF=OFF was found in cache
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(NETCDF): defining option ENABLE_NETCDF 'support for GRIB to NetCDF conversion' ON
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(NETCDF): ENABLE_NETCDF=OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(NETCDF): feature disabled
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(AEC): defaults to OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(AEC): ENABLE_AEC=OFF was found in cache
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(AEC): defining option ENABLE_AEC 'support for Adaptive Entropy Coding' OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(AEC): ENABLE_AEC=OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(AEC): feature disabled
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(PYTHON): defaults to ON
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(PYTHON): ENABLE_PYTHON=OFF was found in cache
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(PYTHON): defining option ENABLE_PYTHON 'build the GRIB_API Python interface' ON
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(PYTHON): ENABLE_PYTHON=OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(PYTHON): feature disabled
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(FORTRAN): defaults to ON
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(FORTRAN): ENABLE_FORTRAN=ON was found in cache
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(FORTRAN): defining option ENABLE_FORTRAN 'build the GRIB_API Fortran interface' ON
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(FORTRAN): ENABLE_FORTRAN=ON
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(FORTRAN): feature enabled
+2018-06-21T12:08:03 - grib_api - INFO - Feature FORTRAN enabled
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_compiler_flags(Fortran): try include /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api/cmake/compiler_flags/GNU_Fortran.cmake 
+2018-06-21T12:08:03 - grib_api - DEBUG - CMAKE_Fortran_FLAGS : 
+2018-06-21T12:08:03 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_NONE : 
+2018-06-21T12:08:03 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_DEBUG : -O0 -g -fcheck=bounds -fbacktrace -finit-real=snan
+2018-06-21T12:08:03 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_BIT : -g -O2 -m64 -march=native -DNDEBUG -fno-range-check -fconvert=big-endian
+2018-06-21T12:08:03 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_PRODUCTION : -O2 -g
+2018-06-21T12:08:03 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_RELEASE : -O3 -funroll-all-loops -finline-functions
+2018-06-21T12:08:03 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_RELWITHDEBINFO : -O2 -g
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(MEMORY_MANAGEMENT): defaults to OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(MEMORY_MANAGEMENT): ENABLE_MEMORY_MANAGEMENT=OFF was found in cache
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(MEMORY_MANAGEMENT): defining option ENABLE_MEMORY_MANAGEMENT 'enable memory management' OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(MEMORY_MANAGEMENT): ENABLE_MEMORY_MANAGEMENT=OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(MEMORY_MANAGEMENT): feature disabled
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(ALIGN_MEMORY): defaults to OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(ALIGN_MEMORY): ENABLE_ALIGN_MEMORY=OFF was found in cache
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(ALIGN_MEMORY): defining option ENABLE_ALIGN_MEMORY 'enable memory alignment' OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(ALIGN_MEMORY): ENABLE_ALIGN_MEMORY=OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(ALIGN_MEMORY): feature disabled
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(GRIB_TIMER): defaults to OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(GRIB_TIMER): ENABLE_GRIB_TIMER=OFF was found in cache
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(GRIB_TIMER): defining option ENABLE_GRIB_TIMER 'enable timer' OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(GRIB_TIMER): ENABLE_GRIB_TIMER=OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(GRIB_TIMER): feature disabled
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(GRIB_THREADS): defaults to OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(GRIB_THREADS): ENABLE_GRIB_THREADS=OFF was found in cache
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(GRIB_THREADS): defining option ENABLE_GRIB_THREADS 'enable POSIX threads' OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(GRIB_THREADS): ENABLE_GRIB_THREADS=OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(GRIB_THREADS): feature disabled
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(GRIB_OMP_THREADS): defaults to OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(GRIB_OMP_THREADS): ENABLE_GRIB_OMP_THREADS=OFF was found in cache
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(GRIB_OMP_THREADS): defining option ENABLE_GRIB_OMP_THREADS 'enable OMP threads' OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(GRIB_OMP_THREADS): ENABLE_GRIB_OMP_THREADS=OFF
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_option(GRIB_OMP_THREADS): feature disabled
+2018-06-21T12:08:03 - grib_api - DEPRECATION -  ecbuild_add_extra_search_paths modifies CMAKE_PREFIX_PATH, which can affect future package discovery if not undone by the caller. The current CMAKE_PREFIX_PATH is being backed up as _CMAKE_PREFIX_PATH so it can later be restored.
+2018-06-21T12:08:03 - grib_api - DEPRECATION -  ecbuild_list_extra_search_paths should no longer be used and is going to be removed in a future version of ecBuild.
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_list_extra_search_paths(jasper): setting CMAKE_PREFIX_PATH to 
+2018-06-21T12:08:03 - grib_api - INFO -  CMAKE_THREAD_LIBS_INIT=-lpthread
+2018-06-21T12:08:03 - grib_api - INFO -  CMAKE_USE_PTHREADS_INIT=1
+2018-06-21T12:08:03 - grib_api - INFO -  GRIB_THREADS=, HAVE_GRIB_THREADS=0
+2018-06-21T12:08:03 - grib_api - INFO -  GRIB_PTHREADS=0
+2018-06-21T12:08:03 - grib_api - INFO -  GRIB_OMP_THREADS=0
+2018-06-21T12:08:03 - grib_api - DEBUG - C FLAG [-pedantic] added
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_library(grib_api): removing grib_bits_fast_big_endian.c grib_bits_any_endian.c grib_bits_fast_big_endian_vector.c grib_bits_any_endian_vector.c grib_bits_fast_big_endian_simple.c grib_bits_any_endian_simple.c grib_bits_fast_big_endian_omp.c grib_bits_any_endian_omp.c encode_double_array.c grib_bits_ibmpow.c grib_bits_ibmpow_opt.c minmax_val.c /usr/lib/x86_64-linux-gnu/libm.so from sources
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_library(grib_api): linking with /usr/lib/x86_64-linux-gnu/libm.so
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_library(grib_api): linking with -lpthread
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_library(grib_api): mark as generated grib_api_version.c
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_library(grib_api): installing to lib
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_library(grib_tools): library type is STATIC
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_library(grib_tools): linking with grib_api
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_keys): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_keys): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_histogram): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_histogram): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_error): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_error): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_add): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_add): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(big2gribex): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(big2gribex): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_debug): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_debug): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_info): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_info): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_filter): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_filter): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_ls): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_ls): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_dump): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_dump): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib2ppm): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib2ppm): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_set): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_set): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_get): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_get): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_get_data): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_get_data): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_copy): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_copy): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_repair): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_repair): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_packing): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_packing): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_cmp): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_cmp): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_convert): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_convert): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_distance): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_distance): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_corruption_check): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_corruption_check): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_compare): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_compare): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_parser): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_parser): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_count): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_count): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_index_build): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_index_build): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(gg_sub_area_check): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(gg_sub_area_check): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_moments): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_moments): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_to_json): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_to_json): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_list_keys): linking with grib_tools
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_list_keys): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_types): not installing
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_library(grib_api_f77): linking with grib_api
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_library(grib_api_f77): installing to lib
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_library(grib_api_f90): linking with grib_api
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_library(grib_api_f90): mark as generated grib_f90.f90
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_library(grib_api_f90): installing to lib
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(read_any): linking with grib_api
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(read_any): not installing
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(julian): linking with grib_api
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(julian): not installing
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(index): linking with grib_api
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(index): not installing
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(multi_from_message): linking with grib_api
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(multi_from_message): not installing
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(read_index): linking with grib_api
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(read_index): not installing
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(unit_tests): linking with grib_api
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(unit_tests): not installing
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(gauss_sub): linking with grib_api
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(gauss_sub): not installing
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_util_set_spec): linking with grib_api
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(grib_util_set_spec): not installing
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(tigge_check): linking with grib_api
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(tigge_check): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(tigge_name): linking with grib_api
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(tigge_name): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(tigge_accumulations): linking with grib_api
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(tigge_accumulations): installing to bin
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(tigge_split): linking with grib_api
+2018-06-21T12:08:03 - grib_api - DEBUG - ecbuild_add_executable(tigge_split): installing to bin
+2018-06-21T12:08:04 - grib_api - INFO - pkg-config file created: grib_api.pc
+2018-06-21T12:08:04 - grib_api - INFO - pkg-config file created: grib_api_f90.pc
+2018-06-21T12:08:04 - grib_api - INFO - pkg-config file created: grib_api_f77.pc
+2018-06-21T12:08:04 - grib_api - INFO - GRIB_API_TPLS: CMath
+2018-06-21T12:08:04 - grib_api - DEBUG - Found /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api/grib_api-import.cmake.in - configuring to /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/grib_api-import.cmake
+2018-06-21T12:08:04 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:04 - grib_api - INFO - Project grib_api summary
+2018-06-21T12:08:04 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:04 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:04 - grib_api - INFO - Build summary
+2018-06-21T12:08:04 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:04 - grib_api - INFO - system : [gao] [Linux-4.9.0-3-amd64] [linux.64]
+2018-06-21T12:08:04 - grib_api - INFO - processor        : [x86_64]
+2018-06-21T12:08:04 - grib_api - INFO - endiness         : Little Endian -- IEEE [1]
+2018-06-21T12:08:04 - grib_api - INFO - build type       : [Release]
+2018-06-21T12:08:04 - grib_api - INFO - timestamp        : [20180621115855]
+2018-06-21T12:08:04 - grib_api - INFO - install prefix   : [/home/gao/Documents/open-SURFEX/_install/lib/surfex]
+2018-06-21T12:08:04 - grib_api - INFO -   bin dir        : [/home/gao/Documents/open-SURFEX/_install/lib/surfex/bin]
+2018-06-21T12:08:04 - grib_api - INFO -   lib dir        : [/home/gao/Documents/open-SURFEX/_install/lib/surfex/lib]
+2018-06-21T12:08:04 - grib_api - INFO -   include dir    : [/home/gao/Documents/open-SURFEX/_install/lib/surfex/include]
+2018-06-21T12:08:04 - grib_api - INFO -   data dir       : [/home/gao/Documents/open-SURFEX/_install/lib/surfex/share/grib_api]
+2018-06-21T12:08:04 - grib_api - INFO -   cmake dir      : [/home/gao/Documents/open-SURFEX/_install/lib/surfex/share/grib_api/cmake]
+2018-06-21T12:08:04 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:04 - grib_api - INFO - C -- GNU 6.3.0
+2018-06-21T12:08:04 - grib_api - INFO -     compiler   : /usr/bin/cc
+2018-06-21T12:08:04 - grib_api - INFO -     flags      :  -pipe -pedantic -O3 -DNDEBUG  
+2018-06-21T12:08:04 - grib_api - INFO -     link flags : 
+2018-06-21T12:08:04 - grib_api - INFO - Fortran -- GNU 6.3.0
+2018-06-21T12:08:04 - grib_api - INFO -     compiler   : /usr/bin/gfortran
+2018-06-21T12:08:04 - grib_api - INFO -     flags      :  -O3 -funroll-all-loops -finline-functions  
+2018-06-21T12:08:04 - grib_api - INFO -     link flags : 
+2018-06-21T12:08:04 - grib_api - INFO - linker : /usr/bin/ld
+2018-06-21T12:08:04 - grib_api - INFO - ar     : /usr/bin/ar
+2018-06-21T12:08:04 - grib_api - INFO - ranlib : /usr/bin/ranlib
+2018-06-21T12:08:04 - grib_api - INFO - link flags
+2018-06-21T12:08:04 - grib_api - INFO -     executable [    -Wl,--disable-new-dtags ]
+2018-06-21T12:08:04 - grib_api - INFO -     shared lib [ -Wl,--disable-new-dtags ]
+2018-06-21T12:08:04 - grib_api - INFO -     static lib [ -Wl,--disable-new-dtags ]
+2018-06-21T12:08:04 - grib_api - INFO - install rpath  : $ORIGIN/../lib
+2018-06-21T12:08:04 - grib_api - INFO - common definitions: HAVE_GRIB_API_CONFIG_H
+2018-06-21T12:08:04 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:04 - grib_api - INFO - Feature summary
+2018-06-21T12:08:04 - grib_api - INFO - ---------------------------------------------------------
+The following features have been enabled:
+
+ * JPG, grib_api: support for JPG decoding/encoding
+ * FORTRAN, grib_api: build the GRIB_API Fortran interface
+
+-- The following OPTIONAL packages have been found:
+
+ * Git
+ * CMath
+ * JPEG
+
+-- The following REQUIRED packages have been found:
+
+ * Threads
+
+-- The following features have been disabled:
+
+ * TESTS, grib_api: Enable the unit tests
+ * EXAMPLES, grib_api: Build the examples
+ * PNG, grib_api: support for PNG decoding/encoding
+ * NETCDF, grib_api: support for GRIB to NetCDF conversion
+ * AEC, grib_api: support for Adaptive Entropy Coding
+ * PYTHON, grib_api: build the GRIB_API Python interface
+ * MEMORY_MANAGEMENT, grib_api: enable memory management
+ * ALIGN_MEMORY, grib_api: enable memory alignment
+ * GRIB_TIMER, grib_api: enable timer
+ * GRIB_THREADS, grib_api: enable POSIX threads
+ * GRIB_OMP_THREADS, grib_api: enable OMP threads
+
+-- The following OPTIONAL packages have not been found:
+
+ * Jasper
+ * OpenJPEG
+2018-06-21T12:08:04 - grib_api - INFO - 
+2018-06-21T12:08:04 - grib_api - INFO -    +---------------------------+
+2018-06-21T12:08:04 - grib_api - INFO -    |  GRIB API version 1.23.0  |
+2018-06-21T12:08:04 - grib_api - INFO -    +---------------------------+
+2018-06-21T12:08:04 - grib_api - INFO - 
+2018-06-21T12:08:04 - grib_api - INFO -    +------------------+ 
+2018-06-21T12:08:04 - grib_api - INFO -    | IMPORTANT NOTICE | 
+2018-06-21T12:08:04 - grib_api - INFO -    +---------------------------------------------------------------------------------------------+ 
+2018-06-21T12:08:04 - grib_api - INFO -    | Please note that 'ecCodes' is now the primary GRIB encoding/decoding package used at ECMWF. | 
+2018-06-21T12:08:04 - grib_api - INFO -    | Replacing GRIB API with ecCodes is expected to be transparent for current GRIB API users.   | 
+2018-06-21T12:08:04 - grib_api - INFO -    | In particular the functions with the 'grib_' prefix are included in the ecCodes library.    | 
+2018-06-21T12:08:04 - grib_api - INFO -    |                                                                                             | 
+2018-06-21T12:08:04 - grib_api - INFO -    | You are strongly advised to start the migration process.                                    | 
+2018-06-21T12:08:04 - grib_api - INFO -    |                                                                                             | 
+2018-06-21T12:08:04 - grib_api - INFO -    | For more details, please see:                                                               | 
+2018-06-21T12:08:04 - grib_api - INFO -    |   https://software.ecmwf.int/wiki/display/ECC/ecCodes+Home                                  | 
+2018-06-21T12:08:04 - grib_api - INFO -    +---------------------------------------------------------------------------------------------+ 
+2018-06-21T12:08:04 - grib_api - INFO - 
+2018-06-21T12:08:56 - grib_api - DEBUG - ---------------------------------------------------------
+2018-06-21T12:08:56 - grib_api - DEBUG - Environment:
+2018-06-21T12:08:56 - grib_api - DEBUG - ---------------------------------------------------------
+DESKTOP_SESSION=default
+XDG_SESSION_TYPE=x11
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+GDMSESSION=default
+SHELL=/bin/bash
+GDM_LANG=en_US.UTF-8
+VTE_VERSION=4601
+JOURNAL_STREAM=8:660272
+USERNAME=gao
+XDG_DATA_DIRS=/usr/share/gnome:/usr/share/gnome:/usr/local/share/:/usr/share/
+_=/usr/local/bin/cmake
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+SESSION_MANAGER=local/gao:@/tmp/.ICE-unix/7506,unix/gao:/tmp/.ICE-unix/7506
+XDG_RUNTIME_DIR=/run/user/1000
+WINDOWID=29362471
+XDG_MENU_PREFIX=gnome-
+LS_COLORS=rs=0:di=01 34:ln=01 36:mh=00:pi=40 33:so=01 35:do=01 35:bd=40 33 01:cd=40 33 01:or=40 31 01:mi=00:su=37 41:sg=30 43:ca=30 41:tw=30 42:ow=34 42:st=37 44:ex=01 32:*.tar=01 31:*.tgz=01 31:*.arc=01 31:*.arj=01 31:*.taz=01 31:*.lha=01 31:*.lz4=01 31:*.lzh=01 31:*.lzma=01 31:*.tlz=01 31:*.txz=01 31:*.tzo=01 31:*.t7z=01 31:*.zip=01 31:*.z=01 31:*.Z=01 31:*.dz=01 31:*.gz=01 31:*.lrz=01 31:*.lz=01 31:*.lzo=01 31:*.xz=01 31:*.zst=01 31:*.tzst=01 31:*.bz2=01 31:*.bz=01 31:*.tbz=01 31:*.tbz2=01 31:*.tz=01 31:*.deb=01 31:*.rpm=01 31:*.jar=01 31:*.war=01 31:*.ear=01 31:*.sar=01 31:*.rar=01 31:*.alz=01 31:*.ace=01 31:*.zoo=01 31:*.cpio=01 31:*.7z=01 31:*.rz=01 31:*.cab=01 31:*.jpg=01 35:*.jpeg=01 35:*.mjpg=01 35:*.mjpeg=01 35:*.gif=01 35:*.bmp=01 35:*.pbm=01 35:*.pgm=01 35:*.ppm=01 35:*.tga=01 35:*.xbm=01 35:*.xpm=01 35:*.tif=01 35:*.tiff=01 35:*.png=01 35:*.svg=01 35:*.svgz=01 35:*.mng=01 35:*.pcx=01 35:*.mov=01 35:*.mpg=01 35:*.mpeg=01 35:*.m2v=01 35:*.mkv=01 35:*.webm=01 35:*.ogm=01 35:*.mp4=01 35:*.m4v=01 35:*.mp4v=01 35:*.vob=01 35:*.qt=01 35:*.nuv=01 35:*.wmv=01 35:*.asf=01 35:*.rm=01 35:*.rmvb=01 35:*.flc=01 35:*.avi=01 35:*.fli=01 35:*.flv=01 35:*.gl=01 35:*.dl=01 35:*.xcf=01 35:*.xwd=01 35:*.yuv=01 35:*.cgm=01 35:*.emf=01 35:*.ogv=01 35:*.ogx=01 35:*.aac=00 36:*.au=00 36:*.flac=00 36:*.m4a=00 36:*.mid=00 36:*.midi=00 36:*.mka=00 36:*.mp3=00 36:*.mpc=00 36:*.ogg=00 36:*.ra=00 36:*.wav=00 36:*.oga=00 36:*.opus=00 36:*.spx=00 36:*.xspf=00 36:
+XDG_SESSION_DESKTOP=default
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+DISPLAY=:0
+HOME=/root
+PWD=/home/gao/Documents/open-SURFEX/build
+QT_QPA_PLATFORMTHEME=qgnomeplatform
+XDG_SEAT=seat0
+SSH_AGENT_PID=5580
+PKG_CONFIG_PATH=/opt/intel/opencl:/opt/intel/opencl:
+GTK_MODULES=gail:atk-bridge
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+LOGNAME=root
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+XDG_VTNR=2
+COLORTERM=truecolor
+SHLVL=3
+XDG_SESSION_ID=37
+USER=root
+XDG_CURRENT_DESKTOP=GNOME
+OLDPWD=/home/gao/Documents/open-SURFEX
+MAKEFLAGS=
+MFLAGS=-s
+MAIL=/var/mail/root
+MAKE_TERMOUT=/dev/pts/1
+QT_ACCESSIBILITY=1
+DESKTOP_AUTOSTART_ID=103c26c1ac4ccd1c47152947795690926600000075060001
+WINDOWPATH=2
+MAKE_TERMERR=/dev/pts/1
+LANG=en_US.UTF-8
+TERM=xterm-256color
+INTELOPENCLSDK=/opt/intel/opencl/SDK
+MAKELEVEL=5
+
+2018-06-21T12:08:56 - grib_api - DEBUG - ---------------------------------------------------------
+2018-06-21T12:08:56 - grib_api - INFO - ecbuild   2.7.1	/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api/cmake
+2018-06-21T12:08:56 - grib_api - INFO - cmake     3.11.3	/usr/local/bin/cmake
+2018-06-21T12:08:56 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_compiler_flags(C): try include /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api/cmake/compiler_flags/GNU_C.cmake 
+2018-06-21T12:08:56 - grib_api - DEBUG - CMAKE_C_FLAGS : 
+2018-06-21T12:08:56 - grib_api - DEBUG - CMAKE_C_FLAGS_NONE : 
+2018-06-21T12:08:56 - grib_api - DEBUG - CMAKE_C_FLAGS_DEBUG : -O0 -g
+2018-06-21T12:08:56 - grib_api - DEBUG - CMAKE_C_FLAGS_BIT : -g -O2 -m64 -march=native -DNDEBUG
+2018-06-21T12:08:56 - grib_api - DEBUG - CMAKE_C_FLAGS_PRODUCTION : -O2 -g
+2018-06-21T12:08:56 - grib_api - DEBUG - CMAKE_C_FLAGS_RELEASE : -O3 -DNDEBUG
+2018-06-21T12:08:56 - grib_api - DEBUG - CMAKE_C_FLAGS_RELWITHDEBINFO : -O2 -g
+2018-06-21T12:08:56 - grib_api - DEBUG - C FLAG [-pipe] added
+2018-06-21T12:08:56 - grib_api - DEBUG - sizeof void*       [8]
+2018-06-21T12:08:56 - grib_api - DEBUG - sizeof char        [1]
+2018-06-21T12:08:56 - grib_api - DEBUG - sizeof short       [2]
+2018-06-21T12:08:56 - grib_api - DEBUG - sizeof int         [4]
+2018-06-21T12:08:56 - grib_api - DEBUG - sizeof long        [8]
+2018-06-21T12:08:56 - grib_api - DEBUG - sizeof long long   [8]
+2018-06-21T12:08:56 - grib_api - DEBUG - sizeof float       [4]
+2018-06-21T12:08:56 - grib_api - DEBUG - sizeof double      [8]
+2018-06-21T12:08:56 - grib_api - DEBUG - sizeof long double [16]
+2018-06-21T12:08:56 - grib_api - DEBUG - sizeof size_t      [8]
+2018-06-21T12:08:56 - grib_api - DEBUG - sizeof ssize_t     [8]
+2018-06-21T12:08:56 - grib_api - DEBUG - sizeof off_t       [8]
+2018-06-21T12:08:56 - grib_api - DEBUG - Relative RPATHS are enabled
+2018-06-21T12:08:56 - grib_api - DEBUG - Building with install RPATH
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(TESTS): defaults to ON
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(TESTS): ENABLE_TESTS=OFF was found in cache
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(TESTS): defining option ENABLE_TESTS 'Enable the unit tests' ON
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(TESTS): ENABLE_TESTS=OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(TESTS): feature disabled
+2018-06-21T12:08:56 - grib_api - INFO - Tests have been disabled
+2018-06-21T12:08:56 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:56 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:56 - grib_api - INFO - [grib_api] (1.23.0)
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(EXAMPLES): defaults to ON
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(EXAMPLES): ENABLE_EXAMPLES=OFF was found in cache
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(EXAMPLES): defining option ENABLE_EXAMPLES 'Build the examples' ON
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(EXAMPLES): ENABLE_EXAMPLES=OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(EXAMPLES): feature disabled
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(JPG): defaults to ON
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(JPG): ENABLE_JPG=ON was found in cache
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(JPG): defining option ENABLE_JPG 'support for JPG decoding/encoding' ON
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(JPG): ENABLE_JPG=ON
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(JPG): feature enabled
+2018-06-21T12:08:56 - grib_api - INFO - Feature JPG enabled
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(PNG): defaults to OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(PNG): ENABLE_PNG=OFF was found in cache
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(PNG): defining option ENABLE_PNG 'support for PNG decoding/encoding' OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(PNG): ENABLE_PNG=OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(PNG): feature disabled
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(NETCDF): defaults to ON
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(NETCDF): ENABLE_NETCDF=OFF was found in cache
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(NETCDF): defining option ENABLE_NETCDF 'support for GRIB to NetCDF conversion' ON
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(NETCDF): ENABLE_NETCDF=OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(NETCDF): feature disabled
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(AEC): defaults to OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(AEC): ENABLE_AEC=OFF was found in cache
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(AEC): defining option ENABLE_AEC 'support for Adaptive Entropy Coding' OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(AEC): ENABLE_AEC=OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(AEC): feature disabled
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(PYTHON): defaults to ON
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(PYTHON): ENABLE_PYTHON=OFF was found in cache
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(PYTHON): defining option ENABLE_PYTHON 'build the GRIB_API Python interface' ON
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(PYTHON): ENABLE_PYTHON=OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(PYTHON): feature disabled
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(FORTRAN): defaults to ON
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(FORTRAN): ENABLE_FORTRAN=ON was found in cache
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(FORTRAN): defining option ENABLE_FORTRAN 'build the GRIB_API Fortran interface' ON
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(FORTRAN): ENABLE_FORTRAN=ON
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(FORTRAN): feature enabled
+2018-06-21T12:08:56 - grib_api - INFO - Feature FORTRAN enabled
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_compiler_flags(Fortran): try include /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api/cmake/compiler_flags/GNU_Fortran.cmake 
+2018-06-21T12:08:56 - grib_api - DEBUG - CMAKE_Fortran_FLAGS : 
+2018-06-21T12:08:56 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_NONE : 
+2018-06-21T12:08:56 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_DEBUG : -O0 -g -fcheck=bounds -fbacktrace -finit-real=snan
+2018-06-21T12:08:56 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_BIT : -g -O2 -m64 -march=native -DNDEBUG -fno-range-check -fconvert=big-endian
+2018-06-21T12:08:56 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_PRODUCTION : -O2 -g
+2018-06-21T12:08:56 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_RELEASE : -O3 -funroll-all-loops -finline-functions
+2018-06-21T12:08:56 - grib_api - DEBUG - CMAKE_Fortran_FLAGS_RELWITHDEBINFO : -O2 -g
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(MEMORY_MANAGEMENT): defaults to OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(MEMORY_MANAGEMENT): ENABLE_MEMORY_MANAGEMENT=OFF was found in cache
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(MEMORY_MANAGEMENT): defining option ENABLE_MEMORY_MANAGEMENT 'enable memory management' OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(MEMORY_MANAGEMENT): ENABLE_MEMORY_MANAGEMENT=OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(MEMORY_MANAGEMENT): feature disabled
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(ALIGN_MEMORY): defaults to OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(ALIGN_MEMORY): ENABLE_ALIGN_MEMORY=OFF was found in cache
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(ALIGN_MEMORY): defining option ENABLE_ALIGN_MEMORY 'enable memory alignment' OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(ALIGN_MEMORY): ENABLE_ALIGN_MEMORY=OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(ALIGN_MEMORY): feature disabled
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_TIMER): defaults to OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_TIMER): ENABLE_GRIB_TIMER=OFF was found in cache
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_TIMER): defining option ENABLE_GRIB_TIMER 'enable timer' OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_TIMER): ENABLE_GRIB_TIMER=OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_TIMER): feature disabled
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_THREADS): defaults to OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_THREADS): ENABLE_GRIB_THREADS=OFF was found in cache
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_THREADS): defining option ENABLE_GRIB_THREADS 'enable POSIX threads' OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_THREADS): ENABLE_GRIB_THREADS=OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_THREADS): feature disabled
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_OMP_THREADS): defaults to OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_OMP_THREADS): ENABLE_GRIB_OMP_THREADS=OFF was found in cache
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_OMP_THREADS): defining option ENABLE_GRIB_OMP_THREADS 'enable OMP threads' OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_OMP_THREADS): ENABLE_GRIB_OMP_THREADS=OFF
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_option(GRIB_OMP_THREADS): feature disabled
+2018-06-21T12:08:56 - grib_api - DEPRECATION -  ecbuild_add_extra_search_paths modifies CMAKE_PREFIX_PATH, which can affect future package discovery if not undone by the caller. The current CMAKE_PREFIX_PATH is being backed up as _CMAKE_PREFIX_PATH so it can later be restored.
+2018-06-21T12:08:56 - grib_api - DEPRECATION -  ecbuild_list_extra_search_paths should no longer be used and is going to be removed in a future version of ecBuild.
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_list_extra_search_paths(jasper): setting CMAKE_PREFIX_PATH to 
+2018-06-21T12:08:56 - grib_api - INFO -  CMAKE_THREAD_LIBS_INIT=-lpthread
+2018-06-21T12:08:56 - grib_api - INFO -  CMAKE_USE_PTHREADS_INIT=1
+2018-06-21T12:08:56 - grib_api - INFO -  GRIB_THREADS=, HAVE_GRIB_THREADS=0
+2018-06-21T12:08:56 - grib_api - INFO -  GRIB_PTHREADS=0
+2018-06-21T12:08:56 - grib_api - INFO -  GRIB_OMP_THREADS=0
+2018-06-21T12:08:56 - grib_api - DEBUG - C FLAG [-pedantic] added
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_library(grib_api): removing grib_bits_fast_big_endian.c grib_bits_any_endian.c grib_bits_fast_big_endian_vector.c grib_bits_any_endian_vector.c grib_bits_fast_big_endian_simple.c grib_bits_any_endian_simple.c grib_bits_fast_big_endian_omp.c grib_bits_any_endian_omp.c encode_double_array.c grib_bits_ibmpow.c grib_bits_ibmpow_opt.c minmax_val.c /usr/lib/x86_64-linux-gnu/libm.so from sources
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_library(grib_api): linking with /usr/lib/x86_64-linux-gnu/libm.so
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_library(grib_api): linking with -lpthread
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_library(grib_api): mark as generated grib_api_version.c
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_library(grib_api): installing to lib
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_library(grib_tools): library type is STATIC
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_library(grib_tools): linking with grib_api
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_keys): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_keys): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_histogram): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_histogram): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_error): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_error): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_add): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_add): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(big2gribex): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(big2gribex): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_debug): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_debug): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_info): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_info): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_filter): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_filter): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_ls): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_ls): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_dump): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_dump): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib2ppm): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib2ppm): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_set): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_set): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_get): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_get): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_get_data): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_get_data): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_copy): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_copy): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_repair): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_repair): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_packing): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_packing): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_cmp): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_cmp): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_convert): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_convert): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_distance): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_distance): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_corruption_check): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_corruption_check): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_compare): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_compare): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_parser): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_parser): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_count): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_count): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_index_build): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_index_build): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(gg_sub_area_check): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(gg_sub_area_check): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_moments): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_moments): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_to_json): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_to_json): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_list_keys): linking with grib_tools
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_list_keys): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_types): not installing
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_library(grib_api_f77): linking with grib_api
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_library(grib_api_f77): installing to lib
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_library(grib_api_f90): linking with grib_api
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_library(grib_api_f90): mark as generated grib_f90.f90
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_library(grib_api_f90): installing to lib
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(read_any): linking with grib_api
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(read_any): not installing
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(julian): linking with grib_api
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(julian): not installing
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(index): linking with grib_api
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(index): not installing
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(multi_from_message): linking with grib_api
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(multi_from_message): not installing
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(read_index): linking with grib_api
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(read_index): not installing
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(unit_tests): linking with grib_api
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(unit_tests): not installing
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(gauss_sub): linking with grib_api
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(gauss_sub): not installing
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_util_set_spec): linking with grib_api
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(grib_util_set_spec): not installing
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_check): linking with grib_api
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_check): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_name): linking with grib_api
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_name): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_accumulations): linking with grib_api
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_accumulations): installing to bin
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_split): linking with grib_api
+2018-06-21T12:08:56 - grib_api - DEBUG - ecbuild_add_executable(tigge_split): installing to bin
+2018-06-21T12:08:58 - grib_api - INFO - pkg-config file created: grib_api.pc
+2018-06-21T12:08:58 - grib_api - INFO - pkg-config file created: grib_api_f90.pc
+2018-06-21T12:08:58 - grib_api - INFO - pkg-config file created: grib_api_f77.pc
+2018-06-21T12:08:58 - grib_api - INFO - GRIB_API_TPLS: CMath
+2018-06-21T12:08:58 - grib_api - DEBUG - Found /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api/grib_api-import.cmake.in - configuring to /home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/grib_api-import.cmake
+2018-06-21T12:08:58 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:58 - grib_api - INFO - Project grib_api summary
+2018-06-21T12:08:58 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:58 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:58 - grib_api - INFO - Build summary
+2018-06-21T12:08:58 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:58 - grib_api - INFO - system : [gao] [Linux-4.9.0-3-amd64] [linux.64]
+2018-06-21T12:08:58 - grib_api - INFO - processor        : [x86_64]
+2018-06-21T12:08:58 - grib_api - INFO - endiness         : Little Endian -- IEEE [1]
+2018-06-21T12:08:58 - grib_api - INFO - build type       : [Release]
+2018-06-21T12:08:58 - grib_api - INFO - timestamp        : [20180621115855]
+2018-06-21T12:08:58 - grib_api - INFO - install prefix   : [/home/gao/Documents/open-SURFEX/_install/lib/surfex]
+2018-06-21T12:08:58 - grib_api - INFO -   bin dir        : [/home/gao/Documents/open-SURFEX/_install/lib/surfex/bin]
+2018-06-21T12:08:58 - grib_api - INFO -   lib dir        : [/home/gao/Documents/open-SURFEX/_install/lib/surfex/lib]
+2018-06-21T12:08:58 - grib_api - INFO -   include dir    : [/home/gao/Documents/open-SURFEX/_install/lib/surfex/include]
+2018-06-21T12:08:58 - grib_api - INFO -   data dir       : [/home/gao/Documents/open-SURFEX/_install/lib/surfex/share/grib_api]
+2018-06-21T12:08:58 - grib_api - INFO -   cmake dir      : [/home/gao/Documents/open-SURFEX/_install/lib/surfex/share/grib_api/cmake]
+2018-06-21T12:08:58 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:58 - grib_api - INFO - C -- GNU 6.3.0
+2018-06-21T12:08:58 - grib_api - INFO -     compiler   : /usr/bin/cc
+2018-06-21T12:08:58 - grib_api - INFO -     flags      :  -pipe -pedantic -O3 -DNDEBUG  
+2018-06-21T12:08:58 - grib_api - INFO -     link flags : 
+2018-06-21T12:08:58 - grib_api - INFO - Fortran -- GNU 6.3.0
+2018-06-21T12:08:58 - grib_api - INFO -     compiler   : /usr/bin/gfortran
+2018-06-21T12:08:58 - grib_api - INFO -     flags      :  -O3 -funroll-all-loops -finline-functions  
+2018-06-21T12:08:58 - grib_api - INFO -     link flags : 
+2018-06-21T12:08:58 - grib_api - INFO - linker : /usr/bin/ld
+2018-06-21T12:08:58 - grib_api - INFO - ar     : /usr/bin/ar
+2018-06-21T12:08:58 - grib_api - INFO - ranlib : /usr/bin/ranlib
+2018-06-21T12:08:58 - grib_api - INFO - link flags
+2018-06-21T12:08:58 - grib_api - INFO -     executable [    -Wl,--disable-new-dtags ]
+2018-06-21T12:08:58 - grib_api - INFO -     shared lib [ -Wl,--disable-new-dtags ]
+2018-06-21T12:08:58 - grib_api - INFO -     static lib [ -Wl,--disable-new-dtags ]
+2018-06-21T12:08:58 - grib_api - INFO - install rpath  : $ORIGIN/../lib
+2018-06-21T12:08:58 - grib_api - INFO - common definitions: HAVE_GRIB_API_CONFIG_H
+2018-06-21T12:08:58 - grib_api - INFO - ---------------------------------------------------------
+2018-06-21T12:08:58 - grib_api - INFO - Feature summary
+2018-06-21T12:08:58 - grib_api - INFO - ---------------------------------------------------------
+The following features have been enabled:
+
+ * JPG, grib_api: support for JPG decoding/encoding
+ * FORTRAN, grib_api: build the GRIB_API Fortran interface
+
+-- The following OPTIONAL packages have been found:
+
+ * Git
+ * CMath
+ * JPEG
+
+-- The following REQUIRED packages have been found:
+
+ * Threads
+
+-- The following features have been disabled:
+
+ * TESTS, grib_api: Enable the unit tests
+ * EXAMPLES, grib_api: Build the examples
+ * PNG, grib_api: support for PNG decoding/encoding
+ * NETCDF, grib_api: support for GRIB to NetCDF conversion
+ * AEC, grib_api: support for Adaptive Entropy Coding
+ * PYTHON, grib_api: build the GRIB_API Python interface
+ * MEMORY_MANAGEMENT, grib_api: enable memory management
+ * ALIGN_MEMORY, grib_api: enable memory alignment
+ * GRIB_TIMER, grib_api: enable timer
+ * GRIB_THREADS, grib_api: enable POSIX threads
+ * GRIB_OMP_THREADS, grib_api: enable OMP threads
+
+-- The following OPTIONAL packages have not been found:
+
+ * Jasper
+ * OpenJPEG
+2018-06-21T12:08:58 - grib_api - INFO - 
+2018-06-21T12:08:58 - grib_api - INFO -    +---------------------------+
+2018-06-21T12:08:58 - grib_api - INFO -    |  GRIB API version 1.23.0  |
+2018-06-21T12:08:58 - grib_api - INFO -    +---------------------------+
+2018-06-21T12:08:58 - grib_api - INFO - 
+2018-06-21T12:08:58 - grib_api - INFO -    +------------------+ 
+2018-06-21T12:08:58 - grib_api - INFO -    | IMPORTANT NOTICE | 
+2018-06-21T12:08:58 - grib_api - INFO -    +---------------------------------------------------------------------------------------------+ 
+2018-06-21T12:08:58 - grib_api - INFO -    | Please note that 'ecCodes' is now the primary GRIB encoding/decoding package used at ECMWF. | 
+2018-06-21T12:08:58 - grib_api - INFO -    | Replacing GRIB API with ecCodes is expected to be transparent for current GRIB API users.   | 
+2018-06-21T12:08:58 - grib_api - INFO -    | In particular the functions with the 'grib_' prefix are included in the ecCodes library.    | 
+2018-06-21T12:08:58 - grib_api - INFO -    |                                                                                             | 
+2018-06-21T12:08:58 - grib_api - INFO -    | You are strongly advised to start the migration process.                                    | 
+2018-06-21T12:08:58 - grib_api - INFO -    |                                                                                             | 
+2018-06-21T12:08:58 - grib_api - INFO -    | For more details, please see:                                                               | 
+2018-06-21T12:08:58 - grib_api - INFO -    |   https://software.ecmwf.int/wiki/display/ECC/ecCodes+Home                                  | 
+2018-06-21T12:08:58 - grib_api - INFO -    +---------------------------------------------------------------------------------------------+ 
+2018-06-21T12:08:58 - grib_api - INFO - 

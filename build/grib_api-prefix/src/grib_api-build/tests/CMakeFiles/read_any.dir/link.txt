@@ -1,0 +1,1 @@
+/usr/bin/cc  -pipe -pedantic -O3 -DNDEBUG      -Wl,--disable-new-dtags -rdynamic CMakeFiles/read_any.dir/read_any.c.o  -o read_any -Wl,-rpath,/home/gao/Documents/open-SURFEX/build/grib_api-prefix/src/grib_api-build/lib ../lib/libgrib_api.so -lm -lpthread 
